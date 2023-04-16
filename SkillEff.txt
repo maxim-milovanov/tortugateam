@@ -135,7 +135,7 @@
 138	Encumbered Skeleton	3	0	State_klcs_Add	State_klcs_Rem	1	0	0	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	921	-1	0	0	0	error	0	1566795
 139	Skeletar Shielding	-1	0	State_klhd_Add	State_klhd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	912	-1	0	0	0	error	0	1566795
 140	Deathsoul Taunt	-1	0	State_wlcx_Add	State_wlcx_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	926	-1	0	0	0	error	0	1566795
-141	Cursed Blood	1	0	State_wlcx_Add	State_wlcx_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	920	1	0	0	0	error	0	1566795
+141	Cursed Blood	1	0	State_wlcx2_Add	State_wlcx2_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	920	1	0	0	0	error	0	1566795
 142	Deathsoul Poison Dart	1	0	State_wldb_Add	State_wldb_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	920	1	0	0	0	error	0	1566795
 143	Deathsoul Roquet	-1	0	State_wljy_Add	State_wljy_Rem	1	0	0	0	0	0	0	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	253	1	0	0	0	s0086	0	1566795
 144	Whirlpool	-1	State_Xw_Tran	State_Xw_Add	State_Xw_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	280	1	0	0	0	0	0	0	error	0	1566795
@@ -197,9 +197,9 @@
 204	Lv85 BB Sealing	-1	0	State_BBRING5_Add	State_BBRING5_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	572	1	0	0	0	cos005	0	1566795
 205	Lv85 BB Holy	-1	0	State_BBRING6_Add	State_BBRING6_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	577	1	0	0	0	cos005	0	1566795
 207	Christmas luck	-1	0	State_XSMAS01_Add	State_XSMAS01_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	571	1	0	0	0	xmas01	0	1566795
-
 212	Potion of Life	1	State_Pof_Tran	State_Pof_Add	State_Pof_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	113	-1	0	0	0	t12706n	0	1566795
 213	Quest - Smuggling	-1	0	State_SnvSmuggling_Add	State_SnvSmuggling_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	1	0	0	0	t0056	0	1566795
+214	Radiation	1	State_Radiation_Tran	State_Radiation_Add	State_Radiation_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	250	2	0	0	0	n1696	0	1566795
 
 215	Grinch	-1	0	State_Grinch_Add	State_Grinch_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	802	1	0	0	0	t6558	0	1566795
 216	Perfect Luck Berry	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	182	1	0	0	0	t10510	0	1566795
