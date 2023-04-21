@@ -212,3 +212,5 @@
 221	TOP Cleric	-1	0	State_TOP_13_Add	State_TOP_13_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	4026	1	0	0	0	TOP	0	1566795
 222	TOP Seal Master	-1	0	State_TOP_14_Add	State_TOP_14_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	4027	1	0	0	0	TOP	0	1566795
 223	TOP Voyager	-1	0	State_TOP_16_Add	State_TOP_16_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	4028	1	0	0	0	TOP	0	1566795
+
+224	Condemnation	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	37	-1	0	0	0	s527	0	1566795
