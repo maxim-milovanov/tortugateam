@@ -96,10 +96,10 @@
 99	Set Stall	-1	0	State_stall_Add	State_stall_Rem	4	1	0	0	0	0	0	1	0	1	1	1	1	0	0	0	0	-1	0	0	0	0	-1	0	0	0	selling	0	1566795	
 100	Repair	-1	0	0	0	4	1	0	0	0	0	0	1	0	1	1	1	1	0	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
 101	Forging	-1	0	0	0	4	1	0	0	0	0	0	1	0	1	1	1	1	0	0	0	0	-1	0	0	0	0	-1	0	0	0	s0233	0	1566795	
-102	Poition strength modify	-1	0	State_YSLLQH_Add	State_YSLLQH_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1374	0	1566795	
-103	Poition agility modify	-1	0	State_YSMJQH_Add	State_YSMJQH_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1375	0	1566795	
-104	Poition accuracy modify	-1	0	State_YSLQQH_Add	State_YSLQQH_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1377	0	1566795	
-105	Poition constitution modify	-1	0	State_YSTZQH_Add	State_YSTZQH_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1376	0	1566795	
+102	Potion strength modify	-1	0	State_YSLLQH_Add	State_YSLLQH_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1374	0	1566795	
+103	Potion agility modify	-1	0	State_YSMJQH_Add	State_YSMJQH_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1375	0	1566795	
+104	Potion accuracy modify	-1	0	State_YSLQQH_Add	State_YSLQQH_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1377	0	1566795	
+105	Potion constitution modify	-1	0	State_YSTZQH_Add	State_YSTZQH_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1376	0	1566795	
 106	Potion spirit modify	-1	0	State_YSJSQH_Add	State_YSJSQH_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1378	0	1566795	
 107	Forge Bonus	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1385	0	1566795	
 108	Combine Bonus	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1386	0	1566795	
@@ -112,7 +112,7 @@
 115	Fascinate	-1	0	State_HYMH_Add	State_HYMH_Rem	3	0	0	0	0	0	0	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	807	1	0	0	0	error	0	1566795	
 116	Black Dragon Terror	-1	0	State_HLKJ_Add	State_HLKJ_Rem	1	0	0	0	0	0	0	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	319	-1	0	0	0	s116ef	0	1566795	
 117	Black Dragon Roar	-1	0	State_HLLM_Add	State_HLLM_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	158	-1	0	0	0	s117ef	0	1566795	
-118	Crab Binding	-1	0	State_CRXSF_Add	State_CRXSF_Rem	3	0	0	0	0	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	378	-1	0	0	0	error	0	1566795	
+118	Crab Binding	-1	0	State_CRXSF_Add	State_CRXSF_Rem	3	0	0	0	0	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	378	-1	0	0	0	cos013	0	1566795	
 119	Fairy March	-1	0	State_MarchElf_Add	State_MarchElf_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	505	-1	0	0	0	error	0	1566795	
 120	Potion speed modify	-1	0	State_YSMspd_Add	State_YSMspd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1260	0	1566795	
 121	Potion ship speed modify	-1	0	State_YSBoatMspd_Add	State_YSBoatMspd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
