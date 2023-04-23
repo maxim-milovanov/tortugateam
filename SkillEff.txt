@@ -1,5 +1,5 @@
 //ID	Name	Activation interval	Transfer Persists Duration	Use Effect Script	Remove Effect Script	Replacement principle	Can it be manually cancelled	Can it move	Confirm to use skill	Can normal attack be used	Can it be traded	Confirm to use Item	Can it be attacked	Can item be used by others	Can skill be used by others	Are you seen by anybody	Is it forced to show shape	Can inventory be used	can talk to NPC	Remove Effect ID	Screen Effect	Client Performance	Client Display Identification	Ground Status Effect	Center Display	Knock out display	Special effect of recipe	dummy1	Under this status attacked effect display	dummy2	ICON	Description	Desciption	Display format	Remark
-1	Burn	1	State_Rs_Tran	State_Rs_Add	State_Rs_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	112	0	0	115	2	0	0	s1ef	error	0	1566795	
+1	Burn	1	State_Rs_Tran	State_Rs_Add	State_Rs_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	112	0	0	115	2	0	0	0	s1ef	0	1566795	
 2	Healing Spring	3	State_Hfwq_Tran	State_Hfwq_Add	State_Hfwq_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	268	1	0	166	-1	0	0	0	s0122	Heals Target Continuously	1566795	
 3	Cursed Fire	-1	State_Zzzh_Tran	State_Zzzh_Add	State_Zzzh_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	158	-1	0	0	0	s0119	Decreases Defense	15218966	
 4	Poisoned	1	State_Zd_Tran	State_Zd_Add	State_Zd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	250	2	0	0	0	s0087	0	1566795	
@@ -7,12 +7,12 @@
 6	True Sight	-1	State_Syzy_Tran	0	0	1	0	1	1	1	1	1	1	1	1	1	0	1	1	0	0	0	-1	176	1	0	0	-1	0	0	0	s0116	0	1566795	
 7	Abyss Mire	-1	State_Synz_Tran	State_Synz_Add	State_Synz_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	240	-1	0	0	0	s0121	Decreases Movement Speed	15218966	
 9	Thunderstorm	2	State_Larea_Tran	State_Larea_Add	State_Larea_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	7	292	0	0	0	0	0	0	0	error	0	1566795	
-10	Fog	2	State_Warea_Tran	State_Warea_Add	State_Warea_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	8	293	0	0	0	0	0	0	0	error	0	1566795	
-11	Tornado	2	State_Farea_Tran	State_Farea_Add	State_Farea_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	5	291	0	0	0	0	0	0	0	error	0	1566795	
+10	Fog	2	State_Warea_Tran	State_Warea_Add	State_Warea_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	8	293	0	0	0	0	0	0	0	s0219	0	1566795	
+11	Tornado	2	State_Farea_Tran	State_Farea_Add	State_Farea_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	5	291	0	0	0	0	0	0	0	s0213	0	1566795	
 12	Whirlpool	-1	State_Xw_Tran	State_Xw_Add	State_Xw_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	280	1	0	0	0	0	0	0	s0218	0	1566795	
 13	Fog	-1	State_Mw_Tran	State_Mw_Add	State_Mw_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	283	1	0	0	0	0	0	0	s0219	0	1566795	
 14	Lightning Curtain	2	State_Lm_Tran	State_Lm_Add	State_Lm_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	290	1	0	0	0	0	0	0	s0220	0	1566795	
-15	Taunt	-1	0	State_Chf_Add	State_Chf_Rem	4	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
+15	Taunt	-1	0	State_Chf_Add	State_Chf_Rem	4	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s15ef	0	1566795	
 16	Water Mine Self Destruct	1	0	State_Slzb_Add	State_Slzb_Rem	1	0	0	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	302	-1	0	0	0	error	0	1566795	
 17	Bull Potion	-1	0	State_PKMNYS_Add	State_PKMNYS_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n0290	0	1566795	
 18	Hairstyling	-1	0	0	0	1	0	0	0	0	0	0	1	1	1	1	1	0	0	0	0	0	-1	0	0	0	0	0	0	0	0	error	0	1566795	
@@ -88,14 +88,14 @@
 91	Venom Arrow	2	State_Dj_Tran	State_Dj_Add	State_Dj_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	250	1	0	0	0	s0224	Inflicts Poison Damage	15218966	
 92	Harden	-1	0	State_Shpf_Add	State_Shpf_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	301	1	0	0	0	s0225	Increases Defense	1566795	
 93	Blood Fury	1	0	State_Xn_Add	State_Xn_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	321	-1	0	0	0	n0702	0	1566795	
-94	Lair	-1	0	State_Nt_Add	State_Nt_Rem	1	0	1	0	0	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	324	-1	0	0	0	error	0	1566795	
-95	Earthquake	-1	State_DiZ_Tran	State_DiZ_Add	State_DiZ_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	253	1	0	0	0	error	0	1566795	
+94	Lair	-1	0	State_Nt_Add	State_Nt_Rem	1	0	1	0	0	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	324	-1	0	0	0	s94ef	0	1566795	
+95	Earthquake	-1	State_DiZ_Tran	State_DiZ_Add	State_DiZ_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	253	1	0	0	0	s95ef	0	1566795	
 96	Kiss of Frost	-1	0	State_Biw_Add	State_Biw_Rem	2	0	0	0	0	0	0	0	0	0	1	1	1	1	0	0	0	-1	0	0	0	329	2	0	0	0	icecube	0	1566795	
 97	Wood Bundle	3	0	State_MCK_Add	State_MCK_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
 98	Death Shriek	-1	0	State_Swcx_Add	State_Swcx_Rem	2	0	0	0	0	0	0	1	1	1	1	1	1	1	0	0	0	-1	0	0	1	319	-1	0	0	0	n0187	0	1566795	
 99	Set Stall	-1	0	State_stall_Add	State_stall_Rem	4	1	0	0	0	0	0	1	0	1	1	1	1	0	0	0	0	-1	0	0	0	0	-1	0	0	0	selling	0	1566795	
 100	Repair	-1	0	0	0	4	1	0	0	0	0	0	1	0	1	1	1	1	0	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
-101	Forging	-1	0	0	0	4	1	0	0	0	0	0	1	0	1	1	1	1	0	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
+101	Forging	-1	0	0	0	4	1	0	0	0	0	0	1	0	1	1	1	1	0	0	0	0	-1	0	0	0	0	-1	0	0	0	s0237	0	1566795	
 102	Poison strength modify	-1	0	State_YSLLQH_Add	State_YSLLQH_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1196	0	1566795	
 103	Poition agility modify	-1	0	State_YSMJQH_Add	State_YSMJQH_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1192	0	1566795	
 104	Poition accuracy modify	-1	0	State_YSLQQH_Add	State_YSLQQH_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1193	0	1566795	
@@ -105,13 +105,13 @@
 108	Combine Bonus	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
 109	Lantern	-1	0	State_DengLong_Add	State_DengLong_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	360	1	0	0	0	n0848	Increases Defense	1566795	
 110	Rose	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	504	25	0	0	0	error	0	1566795	
-111	Potions to recover HP	3	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
+111	Potions to recover HP	3	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	t12710	0	1566795	
 112	Wine 1	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
 113	Wine 2	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
-114	Corpse Poison	3	0	State_JSDD_Add	State_JSDD_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	250	1	0	0	0	error	0	1566795	
+114	Corpse Poison	3	0	State_JSDD_Add	State_JSDD_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	250	1	0	0	0	s114ef	0	1566795	
 115	Fascinate	-1	0	State_HYMH_Add	State_HYMH_Rem	3	0	0	0	0	0	0	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	807	1	0	0	0	error	0	1566795	
-116	Black Dragon Terror	-1	0	State_HLKJ_Add	State_HLKJ_Rem	1	0	0	0	0	0	0	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	319	-1	0	0	0	error	0	1566795	
-117	Black Dragon Roar	-1	0	State_HLLM_Add	State_HLLM_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	158	-1	0	0	0	error	0	1566795	
+116	Black Dragon Terror	-1	0	State_HLKJ_Add	State_HLKJ_Rem	1	0	0	0	0	0	0	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	319	-1	0	0	0	s116ef	0	1566795	
+117	Black Dragon Roar	-1	0	State_HLLM_Add	State_HLLM_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	158	-1	0	0	0	s117ef	0	1566795	
 118	Crab Binding	-1	0	State_CRXSF_Add	State_CRXSF_Rem	3	0	0	0	0	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	378	-1	0	0	0	error	0	1566795	
 119	Fairy March	-1	0	State_MarchElf_Add	State_MarchElf_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	505	-1	0	0	0	error	0	1566795	
 120	Potion speed modify	-1	0	State_YSMspd_Add	State_YSMspd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1390	0	1566795	
@@ -119,7 +119,7 @@
 122	Potion ship defense modify	-1	0	State_YSBoatDEF_Add	State_YSBoatDEF_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
 123	Spring Town Status	-1	0	0	0	4	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
 124	Ether Clover	-1	0	State_PKSBYS_Add	State_PKSBYS_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
-125	Black Dragon Roar	-1	0	State_BlackHx_Add	State_BlackHx_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	894	-1	0	0	0	error	0	1566795	
+125	Black Dragon Roar	-1	0	State_BlackHx_Add	State_BlackHx_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	894	-1	0	0	0	s117ef	0	1566795	
 126	Black Dragon Lightning Bolt	-1	0	State_BlackLj_Add	State_BlackLj_Rem	1	0	0	0	0	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	887	-1	0	0	0	s0214	0	1566795	
 127	Party EXP Bonus	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1405	0	1566795	
 128	Battle Array	-1	0	State_KUANGZ_Add	State_KUANGZ_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1407	Increases Attack	1566795	
@@ -135,10 +135,10 @@
 138	Encumbered Skeleton	3	0	State_klcs_Add	State_klcs_Rem	1	0	0	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	921	-1	0	0	0	error	0	1566795	
 139	Skeletar Shielding	-1	0	State_klhd_Add	State_klhd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	912	-1	0	0	0	error	0	1566795	
 140	Deathsoul Taunt	-1	0	State_wlcx_Add	State_wlcx_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	926	-1	0	0	0	error	0	1566795	
-141	Cursed Blood	1	0	State_wlcx2_Add	State_wlcx2_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	920	1	0	0	0	error	0	1566795	
-142	Deathsoul Poison Dart	1	0	State_wldb_Add	State_wldb_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	920	1	0	0	0	error	0	1566795	
+141	Cursed Blood	1	0	State_wlcx2_Add	State_wlcx2_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	920	1	0	0	0	s141ef	0	1566795	
+142	Deathsoul Poison Dart	1	0	State_wldb_Add	State_wldb_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	920	1	0	0	0	s142ef	0	1566795	
 143	Deathsoul Roquet	-1	0	State_wljy_Add	State_wljy_Rem	1	0	0	0	0	0	0	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	253	1	0	0	0	s0086	0	1566795	
-144	Whirlpool	-1	State_Xw_Tran	State_Xw_Add	State_Xw_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	280	1	0	0	0	0	0	0	error	0	1566795	
+144	Whirlpool	-1	State_Xw_Tran	State_Xw_Add	State_Xw_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	280	1	0	0	0	0	0	0	s0218	0	1566795	
 145	Cloud Attack	1	State_ywgj_Tran	State_ywgj_Add	State_ywgj_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	293	0	0	0	-1	0	0	0	error	0	1566795	
 146	Roar of Deathsoul	-1	0	State_wlnh_Add	State_wlnh_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
 147	Fairy EXP Bonus	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1483	0	1566795	
@@ -172,8 +172,8 @@
 176	Carrion Ball	-1	0	State_FuShiZhiQiu_Add	State_FuShiZhiQiu_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	306	1	0	0	0	n1700	0	1566795	
 177	Noise Polluter	1	State_ZaoYinZhiZao_Tran	State_ZaoYinZhiZao_Add	State_ZaoYinZhiZao_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	1	0	920	1	0	0	0	n1701	0	1566795	
 178	Earthquake Generator	-1	State_DiZhenFaSheng_Tran	State_DiZhenFaSheng_Add	State_DiZhenFaSheng_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	326	1	0	253	1	0	0	0	n1702	0	1566795	
-179	Chain Bullet	-1	0	State_LianDan_Add	State_LianDan_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	271	-1	0	0	0	error	0	1566795	
-180	Mirage Generator	-1	0	State_HuanYinFaSheng_Add	State_HuanYinFaSheng_Rem	1	0	1	1	1	1	1	0	0	0	1	1	1	1	0	0	0	-1	0	0	0	912	-1	0	0	0	error	0	1566795	
+179	Chain Bullet	-1	0	State_LianDan_Add	State_LianDan_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	271	-1	0	0	0	n1716	0	1566795	
+180	Mirage Generator	-1	0	State_HuanYinFaSheng_Add	State_HuanYinFaSheng_Rem	1	0	1	1	1	1	1	0	0	0	1	1	1	1	0	0	0	-1	0	0	0	912	-1	0	0	0	n1712	0	1566795	
 181	Stealth Ship	-1	0	State_ChuanZhiQianXing_Add	State_ChuanZhiQianXing_Rem	1	0	1	1	1	0	1	1	1	1	0	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1714	0	1566795	
 182	Radar	-1	State_LeiDa_Tran	State_LeiDa_Add	State_LeiDa_Rem	1	0	1	1	1	1	1	1	1	1	1	0	1	1	0	0	0	-1	176	1	0	0	-1	0	0	0	error	0	1566795	
 183	Carrion Bullet	1	0	State_FuShiDan_Add	State_FuShiDan_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	250	-1	0	0	0	n1711	0	1566795	
@@ -181,7 +181,7 @@
 185	Burning Lamb	1	State_Myrs_Tran	State_Myrs_Add	State_Myrs_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	115	2	0	0	0	error	0	1566795	
 186	Drag Tower	-1	0	State_JST_Add	State_JST_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	297	-1	0	0	0	error	0	1566795	
 187	Healing Spring	1	0	State_HFZQ_Add	State_HFZQ_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	166	-1	0	0	0	s0122	Heals Target Continuously	1566795	
-188	Devil Curse	1	0	State_EmoYuYan_Add	State_EmoYuYan_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	936	-1	0	0	0	error	0	1566795	
+188	Devil Curse	1	0	State_EmoYuYan_Add	State_EmoYuYan_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	936	-1	0	0	0	s0457	0	1566795	
 189	Super consciousness	3	State_XYSYF_Tran	State_XYSYF_Add	State_XYSYF_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	937	1	0	131	-1	0	0	0	error	0	1566795	
 190	Ammo Warehouse is gone	-1	0	State_JHKML_Add	State_JHKML_Rem	3	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
 191	Frozen ring	-1	0	State_BDH_Add	State_BDH_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	943	-1	0	0	0	error	0	1566795	
