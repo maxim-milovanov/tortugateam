@@ -210,3 +210,5 @@
 223	TOP Voyager	-1	0	State_TOP_16_Add	State_TOP_16_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	4028	1	0	0	0	TOP	0	1566795	
 224	Condemnation	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	37	-1	0	0	0	s527	0	1566795	
 225	Red wind	-1	0	State_Rwind_Add	State_Rwind_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	1	0	0	0	s0456o	Increases Attack	1566795	
+226	Shadow step	-1	0	State_WuYin_Add	State_WuYin_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s0453o	0	1566795	
+227	Shadow step	-1	0	State_WuYin2_Add	State_WuYin2_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s0453o	0	1566795	
