@@ -2,7 +2,7 @@
 1	Burn	1	State_Rs_Tran	State_Rs_Add	State_Rs_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	112	0	0	115	2	0	0	0	s1ef	0	1566795	
 2	Healing Spring	3	State_Hfwq_Tran	State_Hfwq_Add	State_Hfwq_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	268	1	0	166	-1	0	0	0	s0122	Heals Target Continuously	1566795	
 3	Cursed Fire	-1	State_Zzzh_Tran	State_Zzzh_Add	State_Zzzh_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	158	-1	0	0	0	s0119	Decreases Defense	15218966	
-4	Poisoned	1	State_Zd_Tran	State_Zd_Add	State_Zd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	250	2	0	0	0	s0087	0	1566795	
+4	Poisoned	1	State_Zd_Tran	State_Zd_Add	State_Zd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	298	2	0	0	0	s0087	0	1566795	
 5	Counterguard	-1	State_Sdbz_Tran	State_Sdbz_Add	State_Sdbz_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	173	0	0	174	-1	0	0	0	error	0	1566795	
 6	True Sight	-1	State_Syzy_Tran	0	0	1	0	1	1	1	1	1	1	1	1	1	0	1	1	0	0	0	-1	176	1	0	0	-1	0	0	0	s0116	0	1566795	
 7	Abyss Mire	-1	State_Synz_Tran	State_Synz_Add	State_Synz_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	240	-1	0	0	0	s0121	Decreases Movement Speed	15218966	
