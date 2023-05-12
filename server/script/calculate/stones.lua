@@ -12,7 +12,7 @@ STONE = {
 	[3] = {item_id = 880, attr_type = ITEMATTR_VAL_MNATK, max_lv = 4, gear_point = 1, eff = 15, chance_combine = {1, 1, 0.8, 0.7, 0, 0, 0, 0, 0}, chance_forge = {1, 1, 0.8, 0.7, 0, 0, 0, 0, 0}},
  
 	-- Lustrious Gem 
-	[4] = {item_id = 881, attr_type = ITEMATTR_VAL_HIT, max_lv = 3, gear_point = 2, eff = 5, chance_combine = {1, 1, 0.8, 0, 0, 0, 0, 0, 0}, chance_forge = {1, 1, 0.8, 0, 0, 0, 0, 0, 0}},
+	[4] = {item_id = 881, attr_type = ITEMATTR_VAL_HIT, max_lv = 3, gear_point = 2, eff = 8, chance_combine = {1, 1, 0.8, 0, 0, 0, 0, 0, 0}, chance_forge = {1, 1, 0.8, 0, 0, 0, 0, 0, 0}},
  
 	-- Glowing Gem 
 	[5] = {item_id = 882, attr_type = ITEMATTR_VAL_DEF, max_lv = 4, gear_point = 1, eff = 7, chance_combine = {1, 1, 0.8, 0.7, 0, 0, 0, 0, 0}, chance_forge = {1, 1, 0.8, 0.7, 0, 0, 0, 0, 0}},
