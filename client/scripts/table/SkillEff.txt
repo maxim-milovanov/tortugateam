@@ -117,7 +117,7 @@
 120	Potion speed modify	-1	0	State_YSMspd_Add	State_YSMspd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1260	0	1566795	
 121	Potion ship speed modify	-1	0	State_YSBoatMspd_Add	State_YSBoatMspd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
 122	Potion ship defense modify	-1	0	State_YSBoatDEF_Add	State_YSBoatDEF_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
-123	Spring Town Status	-1	0	0	0	4	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
+123	Spring Town Status	-1	0	0	0	4	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	z10223	0	1566795	
 124	Ether Clover	-1	0	State_PKSBYS_Add	State_PKSBYS_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
 125	Black Dragon Roar	-1	0	State_BlackHx_Add	State_BlackHx_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	894	-1	0	0	0	s117ef	0	1566795	
 126	Black Dragon Lightning Bolt	-1	0	State_BlackLj_Add	State_BlackLj_Rem	1	0	0	0	0	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	887	-1	0	0	0	s0214	0	1566795	
