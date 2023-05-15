@@ -45,7 +45,7 @@
 47	Invinsibility	-1	0	State_PKWd_Add	State_PKWd_Rem	1	0	1	1	1	1	1	0	0	0	1	1	1	1	0	0	0	-1	0	0	0	241	-1	0	0	0	s47ef	0	1566795	
 48	EXP Bonus	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s48ef	0	1566795	
 49	Drop Bonus	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s49ef	0	1566795	
-50	Intense Magic	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	343	-1	0	0	0	cos020	0	1566795	
+50	Intense Magic	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	343	-1	0	0	0	s0256	0	1566795	
 51	Frost Shield	-1	0	State_Bshd_Add	State_Bshd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	135	-1	0	0	0	error	0	1566795	
 53	Firegun Mastery	-1	0	State_Hqsl_Add	State_Hqsl_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
 54	Refined Gunpowder	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
@@ -90,7 +90,7 @@
 93	Blood Fury	1	0	State_Xn_Add	State_Xn_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	321	-1	0	0	0	n0702	0	1566795	
 94	Lair	-1	0	State_Nt_Add	State_Nt_Rem	1	0	1	0	0	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	324	-1	0	0	0	s94ef	0	1566795	
 95	Earthquake	-1	State_DiZ_Tran	State_DiZ_Add	State_DiZ_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	253	1	0	0	0	s95ef	0	1566795	
-96	Kiss of Frost	-1	0	State_Biw_Add	State_Biw_Rem	2	0	0	0	0	0	0	0	0	0	1	1	1	1	0	0	0	-1	0	0	0	329	2	0	0	0	icecube	0	1566795	
+96	Kiss of Frost	-1	0	State_Biw_Add	State_Biw_Rem	2	0	0	0	0	0	0	0	0	0	1	1	1	1	0	0	0	-1	0	0	0	329	2	0	0	0	s0546	0	1566795	
 97	Wood Bundle	3	0	State_MCK_Add	State_MCK_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
 98	Death Shriek	-1	0	State_Swcx_Add	State_Swcx_Rem	2	0	0	0	0	0	0	1	1	1	1	1	1	1	0	0	0	-1	0	0	1	319	-1	0	0	0	n0187	0	1566795	
 99	Set Stall	-1	0	State_stall_Add	State_stall_Rem	4	1	0	0	0	0	0	1	0	1	1	1	1	0	0	0	0	-1	0	0	0	0	-1	0	0	0	selling	0	1566795	
@@ -129,18 +129,18 @@
 132	Fairy Possession A	-1	0	State_JLFT_Add	State_JLFT_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	527	-1	0	0	0	s0234	Grants the Power of the Fairy	1566795	
 133	Super Lollipop	-1	0	State_CJBBT_Add	State_CJBBT_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1475	0	1566795	
 134	Huge Chocolate	-1	0	State_JRQKL_Add	State_JRQKL_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1476	0	1566795	
-135	Deathsoul Magma Bullet	1	0	State_wlrsd_Add	State_wlrsd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s0113	0	1566795	
-136	Deathsoul Acceleration	-1	0	State_wljs_Add	State_wljs_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	922	-1	0	0	0	n1706	0	1566795	
+135	Deathsoul Magma Bullet	1	0	State_wlrsd_Add	State_wlrsd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s286sk	0	1566795	
+136	Deathsoul Acceleration	-1	0	State_wljs_Add	State_wljs_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	922	-1	0	0	0	s287sk	0	1566795	
 137	Deathsoul Whirlpool	-1	State_wlxw_Tran	State_wlxw_Add	State_wlxw_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	280	1	0	0	0	0	0	0	s137ef	0	1566795	
 138	Encumbered Skeleton	3	0	State_klcs_Add	State_klcs_Rem	1	0	0	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	921	-1	0	0	0	error	0	1566795	
 139	Skeletar Shielding	-1	0	State_klhd_Add	State_klhd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	912	-1	0	0	0	error	0	1566795	
-140	Deathsoul Taunt	-1	0	State_wlcx_Add	State_wlcx_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	926	-1	0	0	0	error	0	1566795	
+140	Deathsoul Taunt	-1	0	State_wlcx_Add	State_wlcx_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	926	-1	0	0	0	s302sk	0	1566795	
 141	Cursed Blood	1	0	State_wlcx2_Add	State_wlcx2_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	920	1	0	0	0	s141ef	0	1566795	
-142	Deathsoul Poison Dart	1	0	State_wldb_Add	State_wldb_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	920	1	0	0	0	s142ef	0	1566795	
+142	Deathsoul Poison Dart	1	0	State_wldb_Add	State_wldb_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	920	1	0	0	0	cos008	0	1566795	
 143	Deathsoul stun	-1	0	State_wljy_Add	State_wljy_Rem	1	0	0	0	0	0	0	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	253	1	0	0	0	cos018	0	1566795	
 144	Whirlpool	-1	State_Xw_Tran	State_Xw_Add	State_Xw_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	280	1	0	0	0	0	0	0	s0218	0	1566795	
 145	Cloud Attack	1	State_ywgj_Tran	State_ywgj_Add	State_ywgj_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	293	0	0	0	-1	0	0	0	error	0	1566795	
-146	Roar of Deathsoul	-1	0	State_wlnh_Add	State_wlnh_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
+146	Roar of Deathsoul	-1	0	State_wlnh_Add	State_wlnh_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	cos17	0	1566795	
 147	Fairy EXP Bonus	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1483	0	1566795	
 148	Skill - Defecate	-1	0	State_jltx1_Add	State_jltx1_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	830	1	0	0	0	error	0	1566795	
 149	Skill - Undergarment	-1	0	State_jltx2_Add	State_jltx2_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	831	1	0	0	0	error	0	1566795	
