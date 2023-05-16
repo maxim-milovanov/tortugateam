@@ -212,5 +212,5 @@
 225	Red wind	-1	0	State_Rwind_Add	State_Rwind_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	1	0	0	0	s0456o	Increases Attack	1566795	
 226	Shadow step	-1	0	State_WuYin_Add	State_WuYin_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s0453o	0	1566795	
 227	Shadow step	-1	0	State_WuYin2_Add	State_WuYin2_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s0453o	0	1566795	
-228	Death Knight Rage	-1	0	State_DKR_Add	State_DRK_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s228ef	0	1566795	
-229	Death Knight Damage	-1	0	State_DKHP_Add	State_DKHP_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s229ef	0	1566795	
+228	Lubi Terror Hate	-1	0	State_DKR_Add	State_DRK_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s228ef	0	1566795	
+229	Lubi Terror Rage	-1	0	State_DKHP_Add	State_DKHP_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s229ef	0	1566795	
