@@ -59,7 +59,7 @@
 62	Ray of Luck	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	169	-1	0	0	0	error	0	1566795	
 63	Ammunition Warehouse is empty	-1	0	State_PKDYK_Add	State_PKDYK_Rem	3	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
 64	Granary empty	-1	0	State_PKLC_Add	State_PKLC_Rem	3	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	
-65	Disarmed	-1	0	State_TK_Add	0	1	0	1	1	0	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	180	1	0	0	0	s0105	0	1566795	
+65	Disarmed	-1	0	State_TK_Add	0	1	0	1	1	0	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	104	1	0	0	0	s65ef	0	1566795	
 66	Traversing	-1	0	State_Clcy_Add	State_Clcy_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	0	0	0	0	error	0	1566795	
 67	Hit Rate Decrease	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	178	1	0	0	0	error	0	1566795	
 68	Enfeeble	-1	0	State_Sj_Add	State_Sj_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	259	1	0	0	0	s0095	Decreases Attack and Stops Skills	15218966	
