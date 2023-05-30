@@ -12,7 +12,7 @@ Blueprint[2300] = {
 		{Item = {id = 1146, amount = 3}, Material1 = {id = 4947, amount = {5, 9}}, Material2 = {id = 2588, amount = {4, 9}}, Material3 = {id = 19868, amount = 2}, Coin = 5, exp = 15},
 		{Item = {id = 3845, amount = 2}, Material1 = {id = 1595, amount = {8, 12}}, Material2 = {id = 3131, amount = {8, 12}}, Material3 = {id = 19868, amount = 1}, Coin = 5, exp = 15},
 		{Item = {id = 20041, amount = 1}, Material1 = {id = 3999, amount = {8, 12}}, Material2 = {id = 4040, amount = {4, 7}}, Material3 = {id = 1693, amount = {3, 6}}, Coin = 5, exp = 15},
-		{Item = {id = 1136, amount = 3}, Material1 = {id = 1713, amount = {3, 6}}, Material2 = {id = 3999, amount = {4, 6}}, Material3 = {id = 19858, amount = 2}, Coin = 5, exp = 15}
+		{Item = {id = 1136, amount = 3}, Material1 = {id = 1713, amount = {3, 6}}, Material2 = {id = 3999, amount = {4, 6}}, Material3 = {id = 19868, amount = 2}, Coin = 5, exp = 15}
 	},
 	[2] = {	{Item = {id = 2729, amount = 5}, Material1 = {id = 1652, amount = {8, 12}}, Material2 = {id = 4001, amount = {2, 4}}, Material3 = {id = 19868, amount = 2}, Coin = 10, exp = 20},
 		{Item = {id = 1136, amount = 8}, Material1 = {id = 1713, amount = {5, 10}}, Material2 = {id = 4001, amount = {2, 4}}, Material3 = {id = 19868, amount = 2}, Coin = 10, exp = 20},
