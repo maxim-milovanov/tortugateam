@@ -45,12 +45,14 @@ Blueprint[2300] = {
 		{Item = {id = 2727, amount = 5}, Material1 = {id = 166, amount = {10, 15}}, Material2 = {id = 4003, amount = {2, 3}}, Material3 = {id = 19868, amount = 2}, Coin = 30, exp = 30},
 		{Item = {id = 20044, amount = 1}, Material1 = {id = 4002, amount = {8, 12}}, Material2 = {id = 4042, amount = {3, 6}}, Material3 = {id = 1711, amount = {3, 6}}, Coin = 30, exp = 30}
 	}
-},
+}
+
 Blueprint[19935] = {
 	[1] = {	{Item = {id = 2720, amount = 3}, Material1 = {id = 4488, amount = {8, 12}}, Material2 = {id = 3999, amount = {6, 10}}, Material3 = {id = 19868, amount = 4}, Coin = 50, exp = 50},
 		{Item = {id = 2791, amount = 3}, Material1 = {id = 1713, amount = {8, 12}}, Material2 = {id = 4001, amount = {6, 10}}, Material3 = {id = 19868, amount = 4}, Coin = 50, exp = 50}
 	}
-},
+}
+
 Blueprint[2301] = {
 	[1] = {	{Item = {id = 19997, amount = 1}, Material1 = {id = 4418, amount = {10, 20}}, Material2 = {id = 2654, amount = {1, 3}}, Material3 = {id = 20034, amount = 1}, Coin = 5, exp = 100},
 		{Item = {id = 19998, amount = 1}, Material1 = {id = 1708, amount = {10, 20}}, Material2 = {id = 2656, amount = {1, 3}}, Material3 = {id = 20035, amount = 1}, Coin = 5, exp = 100},
@@ -137,7 +139,8 @@ Blueprint[2301] = {
 		{Item = {id = 3662, amount = 1}, Material1 = {id = 4002, amount = {20, 40}}, Material2 = {id = 4042, amount = {5, 9}}, Material3 = {id = 20100, amount = {20, 30}}, Coin = 30, exp = 175},
 		{Item = {id = 3663, amount = 1}, Material1 = {id = 4002, amount = {20, 40}}, Material2 = {id = 4042, amount = {5, 9}}, Material3 = {id = 20100, amount = {20, 30}}, Coin = 30, exp = 175}
 	}
-},
+}
+
 Blueprint[2302] = {
 	[1] = {	{Item = {id = 4019, amount = 5}, Material1 = {id = 4421, amount = {10, 15}}, Material2 = {id = 4009, amount = {5, 10}}, Material3 = {id = 2588, amount = {2, 5}}, Coin = 5, exp = 15},
 		{Item = {id = 1078, amount = 5}, Material1 = {id = 4915, amount = {10, 15}}, Material2 = {id = 4809, amount = {8, 12}}, Material3 = {id = 2588, amount = {2, 5}}, Coin = 5, exp = 15},
@@ -167,7 +170,8 @@ Blueprint[2302] = {
 		{Item = {id = 1087, amount = 5}, Material1 = {id = 4730, amount = {10, 15}}, Material2 = {id = 6246, amount = {4, 8}}, Material3 = {id = 2589, amount = {1, 3}}, Coin = 30, exp = 30},
 		{Item = {id = 1860, amount = 5}, Material1 = {id = 4061, amount = {4, 8}}, Material2 = {id = 6246, amount = {4, 8}}, Material3 = {id = 2589, amount = {1, 3}}, Coin = 30, exp = 30}
 	}
-},
+}
+
 Blueprint[19937] = {
 	[1] = {	{Item = {id = 1860, amount = 3}, Material1 = {id = 1578, amount = {8, 15}}, Material2 = {id = 4011, amount = {10, 20}}, Material3 = {id = 6246, amount = {1, 3}}, Coin = 50, exp = 50},
 		{Item = {id = 1087, amount = 3}, Material1 = {id = 4915, amount = {8, 15}}, Material2 = {id = 4809, amount = {10, 20}}, Material3 = {id = 6246, amount = {1, 3}}, Coin = 50, exp = 50},
@@ -175,7 +179,8 @@ Blueprint[19937] = {
 		{Item = {id = 4022, amount = 3}, Material1 = {id = 4466, amount = {8, 15}}, Material2 = {id = 4011, amount = {10, 20}}, Material3 = {id = 6246, amount = {1, 3}}, Coin = 50, exp = 50},
 		{Item = {id = 3128, amount = 40}, Material1 = {id = 4049, amount = {8, 15}}, Material2 = {id = 3116, amount = {10, 20}}, Material3 = {id = 6246, amount = {1, 3}}, Coin = 50, exp = 50}
 	}
-},
+}
+
 Blueprint[12705] = {
 	[1] = {	{Item = {id = 8854, amount = 4}, Material1 = {id = 12547, amount = {4, 7}}, Material2 = {id = 12544, amount = {4, 7}}, Material3 = {id = 2588, amount = 5}, Coin = 5, exp = 15},
 		{Item = {id = 12706, amount = 10}, Material1 = {id = 12541, amount = {4, 7}}, Material2 = {id = 12547, amount = {4, 7}}, Material3 = {id = 2588, amount = 5}, Coin = 5, exp = 15},
@@ -197,7 +202,8 @@ Blueprint[12705] = {
 		{Item = {id = 12709, amount = 10}, Material1 = {id = 12536, amount = {4, 8}}, Material2 = {id = 6246, amount = {4, 8}}, Material3 = {id = 2588, amount = {10, 15}}, Coin = 30, exp = 30},
 		{Item = {id = 8857, amount = 3}, Material1 = {id = 12542, amount = {4, 8}}, Material2 = {id = 6246, amount = {4, 8}}, Material3 = {id = 2588, amount = {10, 15}}, Coin = 30, exp = 30}
 	}
-},
+}
+
 Blueprint[20040] = {
 	[1] = {	{Item = {id = 1856, amount = 3}, Material1 = {id = 12538, amount = {8, 15}}, Material2 = {id = 12535, amount = {8, 15}}, Material3 = {id = 6246, amount = {1, 3}}, Coin = 50, exp = 50},
 		{Item = {id = 12709, amount = 8}, Material1 = {id = 12541, amount = {8, 15}}, Material2 = {id = 12547, amount = {8, 15}}, Material3 = {id = 6246, amount = {1, 3}}, Coin = 50, exp = 50}
