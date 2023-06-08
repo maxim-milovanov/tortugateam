@@ -60,7 +60,7 @@ local Oth_IMPs = {
 	{ name = 'Premium Analysis Catalyst', desc = '', price_type = 0, price = 350, hot = 0, items = { {ID = 20047, Qty = 99} }, param1 = 1, param2 = -1 },
 	{ name = 'Premium Fish board', desc = 'Ingredient for butchering fish', price_type = 0, price = 25, hot = 0, items = { {ID = 20049, Qty = 10} }, param1 = 1, param2 = -1 },
 	{ name = 'Premium Fish board', desc = 'Ingredient for butchering fish', price_type = 0, price = 150, hot = 0, items = { {ID = 20049, Qty = 99} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(ID), desc = GetItemDescription(ID), price_type = 0, price = 100, hot = 0, items = { {ID = 3142, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(ID), desc = GetItemDescription(ID), price_type = 0, price = 500, hot = 0, items = { {ID = 3142, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = 'Voodoo Doll', desc = 'Remove one time death experience penalty', price_type = 0, price = 30, hot = 0, items = { {ID = 3846, Qty = 10} }, param1 = 1, param2 = -1 }
 }	
 	
