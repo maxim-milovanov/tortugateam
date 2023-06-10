@@ -34,15 +34,15 @@ local Items = {
 }
 
 local Mounts = {	
-	{ name = GetItemName(ID), desc = GetItemDescription(ID), price_type = 0, price = 25, hot = 0, items = { {ID = 19497, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(ID), desc = GetItemDescription(ID), price_type = 0, price = 25, hot = 0, items = { {ID = 19497, Qty = 1} }, param1 = 1, param2 = -1 }
+	{ name = GetItemName(19497), desc = GetItemDescription(19497), price_type = 0, price = 25, hot = 0, items = { {ID = 19497, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(19497), desc = GetItemDescription(19497), price_type = 0, price = 25, hot = 0, items = { {ID = 19497, Qty = 1} }, param1 = 1, param2 = -1 }
 }	
 	
 local HandPets = {	
-	{ name = GetItemName(ID), desc = GetItemDescription(ID), price_type = 0, price = 999, hot = 0, items = { {ID = 12303, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(ID), desc = GetItemDescription(ID), price_type = 0, price = 2499, hot = 0, items = { {ID = 12304, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(ID), desc = GetItemDescription(ID), price_type = 0, price = 1500, hot = 0, items = { {ID = 12402, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(ID), desc = GetItemDescription(ID), price_type = 0, price = 199, hot = 0, items = { {ID = 13011, Qty = 1} }, param1 = 1, param2 = -1 }
+	{ name = GetItemName(12303), desc = GetItemDescription(12303), price_type = 0, price = 999, hot = 0, items = { {ID = 12303, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(12304), desc = GetItemDescription(12304), price_type = 0, price = 2499, hot = 0, items = { {ID = 12304, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(12402), desc = GetItemDescription(12402), price_type = 0, price = 1500, hot = 0, items = { {ID = 12402, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(13011), desc = GetItemDescription(13011), price_type = 0, price = 199, hot = 0, items = { {ID = 13011, Qty = 1} }, param1 = 1, param2 = -1 }
 }				
 
 ------

@@ -25,11 +25,11 @@ local Items = {
 }
 
 local Cmb_REP = {	
-	{ name = GetItemName(ID), desc = GetItemDescription(ID), price_type = 1, price = 200000, hot = 0, items = { {ID = 19813, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(ID), desc = GetItemDescription(ID), price_type = 1, price = 225000, hot = 0, items = { {ID = 19814, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(ID), desc = GetItemDescription(ID), price_type = 1, price = 255000, hot = 0, items = { {ID = 19810, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(ID), desc = GetItemDescription(ID), price_type = 1, price = 400000, hot = 0, items = { {ID = 3424, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(ID), desc = GetItemDescription(ID), price_type = 1, price = 300000, hot = 0, items = { {ID = 19893, Qty = 1} }, param1 = 1, param2 = -1 }
+	{ name = GetItemName(19813), desc = GetItemDescription(19813), price_type = 1, price = 200000, hot = 0, items = { {ID = 19813, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(19814), desc = GetItemDescription(19814), price_type = 1, price = 225000, hot = 0, items = { {ID = 19814, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(19810), desc = GetItemDescription(19810), price_type = 1, price = 255000, hot = 0, items = { {ID = 19810, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(3424), desc = GetItemDescription(3424), price_type = 1, price = 400000, hot = 0, items = { {ID = 3424, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(19893), desc = GetItemDescription(19893), price_type = 1, price = 300000, hot = 0, items = { {ID = 19893, Qty = 1} }, param1 = 1, param2 = -1 }
 }					
 
 ------
