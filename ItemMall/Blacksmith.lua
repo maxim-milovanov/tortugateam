@@ -20,19 +20,6 @@ IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 	}
 }
 
-local Items = {
-	{
-		name	=	'Pass to Spring Town',	
-		desc	=	"Use to get back to Spring Town",	
-		price_type = 0,
-		price	=	100,	
-		hot		=	0,
-		items 	=	{	{ID = 3076, Qty = 10}	},	
-		param1	=	1, 
-		param2	=	-1	
-	},
-}
-
 local Bla_IMPs = {	
 	{ name = GetItemName(456), desc = GetItemDescription(456), price_type = 0, price = 15, hot = 0, items = { {ID = 456, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = 'Lucky socket set', desc = 'Lucky socket set', price_type = 0, price = 150, hot = 0, items = { {ID = 19862, Qty = 1}, {ID = 19863, Qty = 1} }, param1 = 1, param2 = -1 },
@@ -48,12 +35,6 @@ local Bla_REP = {
 ------
 -- Сборка пакетов
 ------
---
-for pos, packet in pairs(Items) do
-	IGS.Category[MainTabName][MainTabName].Packs[pos] = AddMallPack(
-		packet.name, packet.desc, packet.price_type, packet.price, packet.hot, packet.items, packet.param1, packet.param2
-	)
-end
 
 for pos, packet in pairs(Bla_IMPs) do
 	IGS.Category[MainTabName][SubTabName1].Packs[pos] = AddMallPack(

@@ -20,19 +20,6 @@ IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 	}
 }
 
-local Items = {
-	{
-		name	=	'Pass to Spring Town',	
-		desc	=	"Use to get back to Spring Town",	
-		price_type = 0,
-		price	=	100,	
-		hot		=	0,
-		items 	=	{	{ID = 3076, Qty = 10}	},	
-		param1	=	1, 
-		param2	=	-1	
-	},
-}
-
 local Fai_IMPs = {	
 	{ name = GetItemName(426), desc = GetItemDescription(426), price_type = 0, price = 199, hot = 0, items = { {ID = 426, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = 'Auto Ration', desc = 'Restores 50 Fairy Stamina. While placed 3th slot of inventory will work automatically. Won\'t work while sailing or use stall.', price_type = 0, price = 50, hot = 0, items = { {ID = 2312, Qty = 99} }, param1 = 1, param2 = -1 },
@@ -69,13 +56,6 @@ local Fai_REP = {
 ------
 -- Сборка пакетов
 ------
---[[
-for pos, packet in pairs(Apparels_Weapon1) do
-	IGS.Category[MainTabName][MainTabName].Packs[pos] = AddMallPack(
-		packet.name, packet.desc, packet.price_type, packet.price, packet.hot, packet.items, packet.param1, packet.param2
-	)
-end
-]]
 
 for pos, packet in pairs(Fai_IMPs) do
 	IGS.Category[MainTabName][SubTabName1].Packs[pos] = AddMallPack(

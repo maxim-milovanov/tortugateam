@@ -40,19 +40,6 @@ IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 	}
 }
 
-local Items = {
-	{
-		name	=	'Pass to Spring Town',	
-		desc	=	"Use to get back to Spring Town",	
-		price_type = 0,
-		price	=	100,	
-		hot		=	0,
-		items 	=	{	{ID = 3076, Qty = 10}	},	
-		param1	=	1, 
-		param2	=	-1	
-	},
-}
-
 local Oth_IMPs = {	
 	{ name = GetItemName(1022), desc = GetItemDescription(1022), price_type = 0, price = 10, hot = 0, items = { {ID = 1022, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(20047), desc = GetItemDescription(20047), price_type = 0, price = 5, hot = 0, items = { {ID = 20047, Qty = 1} }, param1 = 1, param2 = -1 },

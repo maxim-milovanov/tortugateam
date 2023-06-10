@@ -20,19 +20,6 @@ IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 	}
 }
 
-local Items = {
-	{
-		name	=	'Pass to Spring Town',	
-		desc	=	"Use to get back to Spring Town",	
-		price_type = 0,
-		price	=	100,	
-		hot		=	0,
-		items 	=	{	{ID = 3076, Qty = 10}	},	
-		param1	=	1, 
-		param2	=	-1	
-	},
-}
-
 local Mounts = {	
 	{ name = GetItemName(19497), desc = GetItemDescription(19497), price_type = 0, price = 25, hot = 0, items = { {ID = 19497, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(19497), desc = GetItemDescription(19497), price_type = 0, price = 25, hot = 0, items = { {ID = 19497, Qty = 1} }, param1 = 1, param2 = -1 }
@@ -48,13 +35,6 @@ local HandPets = {
 ------
 -- Сборка пакетов
 ------
---[[
-for pos, packet in pairs(Apparels_Weapon1) do
-	IGS.Category[MainTabName][MainTabName].Packs[pos] = AddMallPack(
-		packet.name, packet.desc, packet.price_type, packet.price, packet.hot, packet.items, packet.param1, packet.param2
-	)
-end
-]]
 
 for pos, packet in pairs(Mounts) do
 	IGS.Category[MainTabName][SubTabName1].Packs[pos] = AddMallPack(

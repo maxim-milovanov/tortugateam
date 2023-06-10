@@ -11,19 +11,6 @@ IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 	}
 }
 
-local Items = {
-	{
-		name	=	'Pass to Spring Town',	
-		desc	=	"Use to get back to Spring Town",	
-		price_type = 0,
-		price	=	100,	
-		hot		=	0,
-		items 	=	{	{ID = 3076, Qty = 10}	},	
-		param1	=	1, 
-		param2	=	-1	
-	},
-}
-
 local Cmb_REP = {	
 	{ name = GetItemName(19813), desc = GetItemDescription(19813), price_type = 1, price = 200000, hot = 0, items = { {ID = 19813, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(19814), desc = GetItemDescription(19814), price_type = 1, price = 225000, hot = 0, items = { {ID = 19814, Qty = 1} }, param1 = 1, param2 = -1 },
