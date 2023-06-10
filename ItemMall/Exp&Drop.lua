@@ -33,7 +33,7 @@ local Items = {
 	},
 }
 
-local E&D_IMPs = {	
+local Items1 = {	
 	{ name = 'Charmed Berry', desc = 'Increases the drop multiplier by 2 for 15 minutes.', price_type = 0, price = 40, hot = 0, items = { {ID = 3845, Qty = 10} }, param1 = 1, param2 = -1 },
 	{ name = 'Amplifier of Luck', desc = 'Increases the drop multiplier by 2 for 30 minutes.', price_type = 0, price = 80, hot = 0, items = { {ID = 3096, Qty = 10} }, param1 = 1, param2 = -1 },
 	{ name = 'Super Lucky Fruit', desc = 'Increases the drop multiplier by 3 for 15 minutes. For level 45 and above only', price_type = 0, price = 100, hot = 0, items = { {ID = 3882, Qty = 10} }, param1 = 1, param2 = -1 },
@@ -43,7 +43,7 @@ local E&D_IMPs = {
 	{ name = 'Party EXP fruit', desc = 'Use by party leader. Grant party members 1.5 times experience for 15 mins', price_type = 0, price = 75, hot = 0, items = { {ID = 849, Qty = 5} }, param1 = 1, param2 = -1 }
 }	
 	
-local E&D_REP = {	
+local Items2 = {	
 	{ name = 'Charmed Berry', desc = 'Increases the drop multiplier by 2 for 15 minutes.', price_type = 1, price = 4000, hot = 0, items = { {ID = 3845, Qty = 10} }, param1 = 1, param2 = -1 },
 	{ name = 'Amplifier of Luck', desc = 'Increases the drop multiplier by 2 for 30 minutes.', price_type = 1, price = 8000, hot = 0, items = { {ID = 3096, Qty = 10} }, param1 = 1, param2 = -1 },
 	{ name = 'Super Lucky Fruit', desc = 'Increases the drop multiplier by 3 for 15 minutes. For level 45 and above only', price_type = 1, price = 10000, hot = 0, items = { {ID = 3882, Qty = 10} }, param1 = 1, param2 = -1 },
@@ -64,13 +64,13 @@ for pos, packet in pairs(Apparels_Weapon1) do
 end
 ]]
 
-for pos, packet in pairs(E&D_IMPs) do
+for pos, packet in pairs(Items1) do
 	IGS.Category[MainTabName][SubTabName1].Packs[pos] = AddMallPack(
 		packet.name, packet.desc, packet.price_type, packet.price, packet.hot, packet.items, packet.param1, packet.param2
 	)
 end
 
-for pos, packet in pairs(E&D_REP) do
+for pos, packet in pairs(Items2) do
 	IGS.Category[MainTabName][SubTabName2].Packs[pos] = AddMallPack(
 		packet.name, packet.desc, packet.price_type, packet.price, packet.hot, packet.items, packet.param1, packet.param2
 	)
