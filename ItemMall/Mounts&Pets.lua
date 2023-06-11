@@ -21,7 +21,6 @@ IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 }
 
 local Mounts = {	
-	{ name = GetItemName(19497), desc = GetItemDescription(19497), price_type = 0, price = 25, hot = 0, items = { {ID = 19497, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(19497), desc = GetItemDescription(19497), price_type = 0, price = 25, hot = 0, items = { {ID = 19497, Qty = 1} }, param1 = 1, param2 = -1 }
 }	
 	

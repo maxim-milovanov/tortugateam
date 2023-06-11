@@ -20,7 +20,7 @@ IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 	}
 }
 
-llocal Cha_IMPs = {	
+local Cha_IMPs = {	
 	{ name = GetItemName(2982), desc = GetItemDescription(2982), price_type = 0, price = 499, hot = 0, items = { {ID = 2982, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(3088), desc = GetItemDescription(3088), price_type = 0, price = 50, hot = 0, items = { {ID = 3088, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(3089), desc = GetItemDescription(3089), price_type = 0, price = 50, hot = 0, items = { {ID = 3089, Qty = 1} }, param1 = 1, param2 = -1 },
