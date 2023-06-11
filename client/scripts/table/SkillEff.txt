@@ -42,7 +42,7 @@
 44	Accurate Potion	-1	0	State_PKJZYS_Add	State_PKJZYS_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	f8859	0	1566795	
 45	Stunned	-1	0	State_Xy_Add	State_Xy_Rem	2	0	0	0	0	0	0	1	1	1	1	1	1	0	0	0	0	-1	0	0	1	253	1	0	0	0	s0086	0	1566795	
 46	Numb	-1	0	State_Mb_Add	State_Mb_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	271	2	0	0	0	s0214	0	1566795	
-47	Invinsibility	-1	0	State_PKWd_Add	State_PKWd_Rem	1	0	1	1	1	1	1	0	0	0	1	1	1	1	0	0	0	-1	0	0	0	43	-1	0	0	0	s47ef	0	1566795	
+47	Invinsibility	-1	0	State_PKWd_Add	State_PKWd_Rem	1	0	1	1	1	1	1	0	0	0	1	1	1	1	0	0	0	-1	0	0	0	241	-1	0	0	0	s47ef	0	1566795	
 48	EXP Bonus	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s48ef	0	1566795	
 49	Drop Bonus	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s49ef	0	1566795	
 50	Intense Magic	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	343	-1	0	0	0	s0256	0	1566795	
