@@ -1,8 +1,11 @@
-
 -- Заголовок категории
-local MainTabName = 'Apparels'
+local MainTabName = 'Appearance'
 
 -- Подкатегория
+local SubTabName12 = 'Unique Vouchers'
+local SubTabName13 = 'Wings'
+local SubTabName14 = 'Hairstyles'
+
 local SubTabName1 = 'Weapon: Sword'
 local SubTabName2 = 'Weapon: Great sword'
 local SubTabName3 = 'Weapon: Bow'
@@ -18,6 +21,18 @@ local SubTabName11 = 'Fairy app'
 
 IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 	[MainTabName] = {
+		Packs = {}, 
+		Pointer = nil
+	},
+	[SubTabName12] = {
+		Packs = {}, 
+		Pointer = nil
+	},
+	[SubTabName13] = {
+		Packs = {}, 
+		Pointer = nil
+	},
+	[SubTabName14] = {
 		Packs = {}, 
 		Pointer = nil
 	},
@@ -67,21 +82,58 @@ IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 	}
 }
 
-local Items = {
-	-- GetItemName(ID)
-	-- GetItemDescription(ID)
-	-- Пропуск в Весноград
-	{
-		name	=	'Pass to Spring Town',	
-		desc	=	"Use to get back to Spring Town",	
-		price_type = 0,
-		price	=	100,	
-		hot		=	0,
-		items 	=	{	{ID = 3076, Qty = 10}	},	
-		param1	=	1, 
-		param2	=	-1	
-	},
-	
+local Vouch = {
+	{ name = GetItemName(13017), desc = GetItemDescription(13017), price_type = 0, price = 5000, hot = 0, items = { {ID = 13017, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(13018), desc = GetItemDescription(13018), price_type = 0, price = 5000, hot = 0, items = { {ID = 13018, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(13019), desc = GetItemDescription(13019), price_type = 0, price = 5000, hot = 0, items = { {ID = 13019, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(20048), desc = GetItemDescription(20048), price_type = 0, price = 5000, hot = 0, items = { {ID = 20048, Qty = 1} }, param1 = 1, param2 = -1 }
+}
+
+local Wngs = {
+	{ name = GetItemName(935), desc = GetItemDescription(935), price_type = 0, price = 300, hot = 0, items = { {ID = 935, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(142), desc = GetItemDescription(142), price_type = 0, price = 300, hot = 0, items = { {ID = 142, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(141), desc = GetItemDescription(141), price_type = 0, price = 300, hot = 0, items = { {ID = 141, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(905), desc = GetItemDescription(905), price_type = 0, price = 300, hot = 0, items = { {ID = 905, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(936), desc = GetItemDescription(936), price_type = 0, price = 300, hot = 0, items = { {ID = 936, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(937), desc = GetItemDescription(937), price_type = 0, price = 300, hot = 0, items = { {ID = 937, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(906), desc = GetItemDescription(906), price_type = 0, price = 300, hot = 0, items = { {ID = 906, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(904), desc = GetItemDescription(904), price_type = 0, price = 300, hot = 0, items = { {ID = 904, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(3603), desc = GetItemDescription(3603), price_type = 0, price = 500, hot = 0, items = { {ID = 3603, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(7877), desc = GetItemDescription(7877), price_type = 0, price = 500, hot = 0, items = { {ID = 7877, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(7876), desc = GetItemDescription(7876), price_type = 0, price = 500, hot = 0, items = { {ID = 7876, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(7879), desc = GetItemDescription(7879), price_type = 0, price = 500, hot = 0, items = { {ID = 7879, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(7880), desc = GetItemDescription(7880), price_type = 0, price = 500, hot = 0, items = { {ID = 7880, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(7881), desc = GetItemDescription(7881), price_type = 0, price = 500, hot = 0, items = { {ID = 7881, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(7882), desc = GetItemDescription(7882), price_type = 0, price = 500, hot = 0, items = { {ID = 7882, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(7884), desc = GetItemDescription(7884), price_type = 0, price = 500, hot = 0, items = { {ID = 7884, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(7885), desc = GetItemDescription(7885), price_type = 0, price = 500, hot = 0, items = { {ID = 7885, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(7886), desc = GetItemDescription(7886), price_type = 0, price = 500, hot = 0, items = { {ID = 7886, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(7887), desc = GetItemDescription(7887), price_type = 0, price = 500, hot = 0, items = { {ID = 7887, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(7888), desc = GetItemDescription(7888), price_type = 0, price = 500, hot = 0, items = { {ID = 7888, Qty = 1} }, param1 = 1, param2 = -1 }
+}
+
+local Hrstl = {
+	{ name = GetItemName(1807), desc = GetItemDescription(1807), price_type = 0, price = 15, hot = 0, items = { {ID = 1807, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1806), desc = GetItemDescription(1806), price_type = 0, price = 2, hot = 0, items = { {ID = 1806, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1804), desc = GetItemDescription(1804), price_type = 0, price = 5, hot = 0, items = { {ID = 1804, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1805), desc = GetItemDescription(1805), price_type = 0, price = 5, hot = 0, items = { {ID = 1805, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(4610), desc = GetItemDescription(4610), price_type = 0, price = 5, hot = 0, items = { {ID = 4610, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1801), desc = GetItemDescription(1801), price_type = 0, price = 5, hot = 0, items = { {ID = 1801, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1800), desc = GetItemDescription(1800), price_type = 0, price = 5, hot = 0, items = { {ID = 1800, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1798), desc = GetItemDescription(1798), price_type = 0, price = 5, hot = 0, items = { {ID = 1798, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1803), desc = GetItemDescription(1803), price_type = 0, price = 5, hot = 0, items = { {ID = 1803, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1799), desc = GetItemDescription(1799), price_type = 0, price = 5, hot = 0, items = { {ID = 1799, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1797), desc = GetItemDescription(1797), price_type = 0, price = 5, hot = 0, items = { {ID = 1797, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1802), desc = GetItemDescription(1802), price_type = 0, price = 5, hot = 0, items = { {ID = 1802, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(4609), desc = GetItemDescription(4609), price_type = 0, price = 5, hot = 0, items = { {ID = 4609, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(934), desc = GetItemDescription(934), price_type = 0, price = 50, hot = 0, items = { {ID = 934, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(932), desc = GetItemDescription(932), price_type = 0, price = 50, hot = 0, items = { {ID = 932, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(931), desc = GetItemDescription(931), price_type = 0, price = 50, hot = 0, items = { {ID = 931, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(933), desc = GetItemDescription(933), price_type = 0, price = 50, hot = 0, items = { {ID = 933, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1811), desc = GetItemDescription(1811), price_type = 0, price = 15, hot = 0, items = { {ID = 1811, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1809), desc = GetItemDescription(1809), price_type = 0, price = 15, hot = 0, items = { {ID = 1809, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1808), desc = GetItemDescription(1808), price_type = 0, price = 15, hot = 0, items = { {ID = 1808, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(1810), desc = GetItemDescription(1810), price_type = 0, price = 15, hot = 0, items = { {ID = 1810, Qty = 1} }, param1 = 1, param2 = -1 }
 }
 
 -- Оружие: Одноручный меч
@@ -1986,8 +2038,21 @@ local Apparels_voucher = {
 ------
 -- Сборка пакетов
 ------
-for pos, packet in pairs(Apparels_Weapon1) do
-	IGS.Category[MainTabName][MainTabName].Packs[pos] = AddMallPack(
+
+for pos, packet in pairs(Vouch) do
+	IGS.Category[MainTabName][SubTabName12].Packs[pos] = AddMallPack(
+		packet.name, packet.desc, packet.price_type, packet.price, packet.hot, packet.items, packet.param1, packet.param2
+	)
+end
+
+for pos, packet in pairs(Wngs) do
+	IGS.Category[MainTabName][SubTabName13].Packs[pos] = AddMallPack(
+		packet.name, packet.desc, packet.price_type, packet.price, packet.hot, packet.items, packet.param1, packet.param2
+	)
+end
+
+for pos, packet in pairs(Hrstl) do
+	IGS.Category[MainTabName][SubTabName14].Packs[pos] = AddMallPack(
 		packet.name, packet.desc, packet.price_type, packet.price, packet.hot, packet.items, packet.param1, packet.param2
 	)
 end
@@ -2062,6 +2127,9 @@ end
 -- Инициализация пакетов
 ------
 IGS.Category[MainTabName][MainTabName].Pointer = AddMallTab(MainTabName, IGS.Category[MainTabName][MainTabName].Packs)
+IGS.Category[MainTabName][SubTabName12].Pointer = AddMallTab(SubTabName12, IGS.Category[MainTabName][SubTabName12].Packs, IGS.Category[MainTabName][MainTabName].Pointer)
+IGS.Category[MainTabName][SubTabName13].Pointer = AddMallTab(SubTabName13, IGS.Category[MainTabName][SubTabName13].Packs, IGS.Category[MainTabName][MainTabName].Pointer)
+IGS.Category[MainTabName][SubTabName14].Pointer = AddMallTab(SubTabName14, IGS.Category[MainTabName][SubTabName14].Packs, IGS.Category[MainTabName][MainTabName].Pointer)
 IGS.Category[MainTabName][SubTabName1].Pointer = AddMallTab(SubTabName1, IGS.Category[MainTabName][SubTabName1].Packs, IGS.Category[MainTabName][MainTabName].Pointer)
 IGS.Category[MainTabName][SubTabName2].Pointer = AddMallTab(SubTabName2, IGS.Category[MainTabName][SubTabName2].Packs, IGS.Category[MainTabName][MainTabName].Pointer)
 IGS.Category[MainTabName][SubTabName3].Pointer = AddMallTab(SubTabName3, IGS.Category[MainTabName][SubTabName3].Packs, IGS.Category[MainTabName][MainTabName].Pointer)
