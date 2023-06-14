@@ -342,7 +342,6 @@ local Apparels_Weapon1 = {
 	-- Severe Utsi
 	{ name = 'Severe Utsi', desc = '', price_type = 0, price = 300, hot = 0, items = { {ID = 8160, Qty = 1} }, param1 = 1, param2 = -1 },
 
-	--- 
 	-- Sakara's curse
 	-- { name = 'Sakara\'s curse', desc = '', price_type = 0, price = 300, hot = 0, items = { {ID = 8161, Qty = 1} }, param1 = 1, param2 = -1 },
 
@@ -589,7 +588,7 @@ local Apparels_Weapon4 = {
 	-- Flamethrower
 	{ name = 'Flamethrower', desc = '', price_type = 0, price = 1000, hot = 0, items = { {ID = 9733, Qty = 1} }, param1 = 1, param2 = -1 },
 	
-	{ name = 'Unknown', desc = '', price_type = 0, price = 0, hot = 0, items = { {ID = 0, Qty = 1} }, param1 = 1, param2 = -1 }
+	-- { name = 'Unknown', desc = '', price_type = 0, price = 0, hot = 0, items = { {ID = 0, Qty = 1} }, param1 = 1, param2 = -1 }
 	
 }
 
@@ -685,8 +684,7 @@ local Apparels_Weapon7 = {
 	-- Chocolate Cleaver
 	{ name = 'Chocolate Cleaver', desc = '', price_type = 0, price = 300, hot = 0, items = { {ID = 9746, Qty = 1} }, param1 = 1, param2 = -1 },
 	
-	-- Chocolate Cleaver
-	{ name = 'Unknown', desc = '', price_type = 0, price = 0, hot = 0, items = { {ID = 0, Qty = 0} }, param1 = 1, param2 = -1 },
+	-- { name = 'Unknown', desc = '', price_type = 0, price = 0, hot = 0, items = { {ID = 0, Qty = 0} }, param1 = 1, param2 = -1 },
 	
 }
 
@@ -1566,7 +1564,7 @@ local Apparels_Phyllis = {
 	-- Robin
 	{ name = 'Robin', desc = '', price_type = 0, price = 350, hot = 0, items = { {ID = 9141, Qty = 1}, {ID = 9142, Qty = 1}, {ID = 9143, Qty = 1}, {ID = 9144, Qty = 1} }, param1 = 1, param2 = -1 },
 	
-	{ name = 'Unknown', desc = '', price_type = 0, price = 0, hot = 0, items = { {ID = 0, Qty = 1} }, param1 = 1, param2 = -1 }
+	-- { name = 'Unknown', desc = '', price_type = 0, price = 0, hot = 0, items = { {ID = 0, Qty = 1} }, param1 = 1, param2 = -1 }
 }
 
 local Apparels_Ami = {
@@ -1811,7 +1809,7 @@ local Apparels_Ami = {
 }
 
 local Apparels_Fairy = {
-	
+
 --	{
 --		name	=	'Mordo Junior Apparel',	
 --		desc	=	"",	
@@ -2017,19 +2015,6 @@ local Apparels_Fairy = {
 		price	=	200,	
 		hot		=	0,
 		items 	=	{	{ID = 19101, Qty = 1}	},	
-		param1	=	1, 
-		param2	=	-1	
-	}
-}
-
-local Apparels_voucher = {
-	{
-		name	=	'Individual apparel voucher',	
-		desc	=	"Contact Administrators of Tales of Pirates before purchasing.",	
-		price_type = 0,
-		price	=	5000,	
-		hot		=	0,
-		items 	=	{	{ID = 13017, Qty = 1}	},	
 		param1	=	1, 
 		param2	=	-1	
 	}
