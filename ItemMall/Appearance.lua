@@ -2,7 +2,7 @@
 local MainTabName = 'Appearance'
 
 -- Подкатегория
-local SubTabName12 = 'Unique Vouchers'
+--local SubTabName12 = 'Unique Vouchers'
 local SubTabName13 = 'Wings'
 local SubTabName14 = 'Hairstyles'
 
@@ -24,10 +24,12 @@ IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 		Packs = {}, 
 		Pointer = nil
 	},
+	--[[
 	[SubTabName12] = {
 		Packs = {}, 
 		Pointer = nil
 	},
+	]]
 	[SubTabName13] = {
 		Packs = {}, 
 		Pointer = nil
@@ -81,14 +83,14 @@ IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 		Pointer = nil
 	}
 }
-
+--[[
 local Vouch = {
 	{ name = GetItemName(13017), desc = GetItemDescription(13017), price_type = 0, price = 4999, hot = 0, items = { {ID = 13017, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(13018), desc = GetItemDescription(13018), price_type = 0, price = 6999, hot = 0, items = { {ID = 13018, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(13019), desc = GetItemDescription(13019), price_type = 0, price = 2999, hot = 0, items = { {ID = 13019, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(20048), desc = GetItemDescription(20048), price_type = 0, price = 3999, hot = 0, items = { {ID = 20048, Qty = 1} }, param1 = 1, param2 = -1 }
 }
-
+]]
 local Wngs = {
 	{ name = GetItemName(935), desc = GetItemDescription(935), price_type = 0, price = 300, hot = 0, items = { {ID = 935, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(142), desc = GetItemDescription(142), price_type = 0, price = 300, hot = 0, items = { {ID = 142, Qty = 1} }, param1 = 1, param2 = -1 },
@@ -2023,13 +2025,13 @@ local Apparels_Fairy = {
 ------
 -- Сборка пакетов
 ------
-
+--[[
 for pos, packet in pairs(Vouch) do
 	IGS.Category[MainTabName][SubTabName12].Packs[pos] = AddMallPack(
 		packet.name, packet.desc, packet.price_type, packet.price, packet.hot, packet.items, packet.param1, packet.param2
 	)
 end
-
+]]
 for pos, packet in pairs(Wngs) do
 	IGS.Category[MainTabName][SubTabName13].Packs[pos] = AddMallPack(
 		packet.name, packet.desc, packet.price_type, packet.price, packet.hot, packet.items, packet.param1, packet.param2
@@ -2112,7 +2114,7 @@ end
 -- Инициализация пакетов
 ------
 IGS.Category[MainTabName][MainTabName].Pointer = AddMallTab(MainTabName, IGS.Category[MainTabName][MainTabName].Packs)
-IGS.Category[MainTabName][SubTabName12].Pointer = AddMallTab(SubTabName12, IGS.Category[MainTabName][SubTabName12].Packs, IGS.Category[MainTabName][MainTabName].Pointer)
+--IGS.Category[MainTabName][SubTabName12].Pointer = AddMallTab(SubTabName12, IGS.Category[MainTabName][SubTabName12].Packs, IGS.Category[MainTabName][MainTabName].Pointer)
 IGS.Category[MainTabName][SubTabName13].Pointer = AddMallTab(SubTabName13, IGS.Category[MainTabName][SubTabName13].Packs, IGS.Category[MainTabName][MainTabName].Pointer)
 IGS.Category[MainTabName][SubTabName14].Pointer = AddMallTab(SubTabName14, IGS.Category[MainTabName][SubTabName14].Packs, IGS.Category[MainTabName][MainTabName].Pointer)
 IGS.Category[MainTabName][SubTabName1].Pointer = AddMallTab(SubTabName1, IGS.Category[MainTabName][SubTabName1].Packs, IGS.Category[MainTabName][MainTabName].Pointer)
