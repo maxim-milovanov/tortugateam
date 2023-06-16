@@ -83,10 +83,10 @@ IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 }
 
 local Vouch = {
-	{ name = GetItemName(13017), desc = GetItemDescription(13017), price_type = 0, price = 5000, hot = 0, items = { {ID = 13017, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(13018), desc = GetItemDescription(13018), price_type = 0, price = 5000, hot = 0, items = { {ID = 13018, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(13019), desc = GetItemDescription(13019), price_type = 0, price = 5000, hot = 0, items = { {ID = 13019, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(20048), desc = GetItemDescription(20048), price_type = 0, price = 5000, hot = 0, items = { {ID = 20048, Qty = 1} }, param1 = 1, param2 = -1 }
+	{ name = GetItemName(13017), desc = GetItemDescription(13017), price_type = 0, price = 4999, hot = 0, items = { {ID = 13017, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(13018), desc = GetItemDescription(13018), price_type = 0, price = 6999, hot = 0, items = { {ID = 13018, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(13019), desc = GetItemDescription(13019), price_type = 0, price = 2999, hot = 0, items = { {ID = 13019, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(20048), desc = GetItemDescription(20048), price_type = 0, price = 3999, hot = 0, items = { {ID = 20048, Qty = 1} }, param1 = 1, param2 = -1 }
 }
 
 local Wngs = {

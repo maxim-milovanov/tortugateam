@@ -20,25 +20,25 @@ IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 	}
 }
 
-local ED_IMPs = {	
-	{ name = 'Charmed Berry', desc = 'Increases the drop multiplier by 2 for 15 minutes.', price_type = 0, price = 40, hot = 0, items = { {ID = 3845, Qty = 10} }, param1 = 1, param2 = -1 },
-	{ name = 'Amplifier of Luck', desc = 'Increases the drop multiplier by 2 for 30 minutes.', price_type = 0, price = 80, hot = 0, items = { {ID = 3096, Qty = 10} }, param1 = 1, param2 = -1 },
-	{ name = 'Super Lucky Fruit', desc = 'Increases the drop multiplier by 3 for 15 minutes. For level 45 and above only', price_type = 0, price = 100, hot = 0, items = { {ID = 3882, Qty = 10} }, param1 = 1, param2 = -1 },
-	{ name = 'Hi-Amplifier of Luck', desc = 'Increases the drop multiplier by 3 for 30 minutes. For level 60 and above only', price_type = 0, price = 200, hot = 0, items = { {ID = 3097, Qty = 10} }, param1 = 1, param2 = -1 },
-	{ name = 'Heavens Berry', desc = 'Grant double experience for 15 mins', price_type = 0, price = 75, hot = 0, items = { {ID = 3844, Qty = 10} }, param1 = 1, param2 = -1 },
-	{ name = 'Amplifier of Strive', desc = 'Grant double experience for 30 mins', price_type = 0, price = 125, hot = 0, items = { {ID = 3094, Qty = 10} }, param1 = 1, param2 = -1 },
-	{ name = 'Party EXP fruit', desc = 'Use by party leader. Grant party members 1.5 times experience for 15 mins', price_type = 0, price = 75, hot = 0, items = { {ID = 849, Qty = 5} }, param1 = 1, param2 = -1 }
-}	
-	
-local ED_REP = {	
-	{ name = 'Charmed Berry', desc = 'Increases the drop multiplier by 2 for 15 minutes.', price_type = 1, price = 4000, hot = 0, items = { {ID = 3845, Qty = 10} }, param1 = 1, param2 = -1 },
-	{ name = 'Amplifier of Luck', desc = 'Increases the drop multiplier by 2 for 30 minutes.', price_type = 1, price = 8000, hot = 0, items = { {ID = 3096, Qty = 10} }, param1 = 1, param2 = -1 },
-	{ name = 'Super Lucky Fruit', desc = 'Increases the drop multiplier by 3 for 15 minutes. For level 45 and above only', price_type = 1, price = 10000, hot = 0, items = { {ID = 3882, Qty = 10} }, param1 = 1, param2 = -1 },
-	{ name = 'Hi-Amplifier of Luck', desc = 'Increases the drop multiplier by 3 for 30 minutes. For level 60 and above only', price_type = 1, price = 20000, hot = 0, items = { {ID = 3097, Qty = 10} }, param1 = 1, param2 = -1 },
-	{ name = 'Heavens Berry', desc = 'Grant double experience for 15 mins', price_type = 1, price = 7500, hot = 0, items = { {ID = 3844, Qty = 10} }, param1 = 1, param2 = -1 },
-	{ name = 'Amplifier of Strive', desc = 'Grant double experience for 30 mins', price_type = 1, price = 12500, hot = 0, items = { {ID = 3094, Qty = 10} }, param1 = 1, param2 = -1 },
-	{ name = 'Party EXP fruit', desc = 'Use by party leader. Grant party members 1.5 times experience for 15 mins', price_type = 1, price = 7500, hot = 0, items = { {ID = 849, Qty = 5} }, param1 = 1, param2 = -1 }
-}			
+local ED_IMPs = {
+	{ name = 'Charmed Berry x10', desc = 'Increases the drop multiplier by 2 for 15 minutes.', price_type = 0, price = 40, hot = 0, items = { {ID = 3845, Qty = 10} }, param1 = 1, param2 = -1 },
+	{ name = 'Amplifier of Luck x10', desc = 'Increases the drop multiplier by 2 for 30 minutes.', price_type = 0, price = 80, hot = 0, items = { {ID = 3096, Qty = 10} }, param1 = 1, param2 = -1 },
+	{ name = 'Super Lucky Fruit x10', desc = 'Increases the drop multiplier by 3 for 15 minutes. For level 45 and above only', price_type = 0, price = 100, hot = 0, items = { {ID = 3882, Qty = 10} }, param1 = 1, param2 = -1 },
+	{ name = 'Hi-Amplifier of Luck x10', desc = 'Increases the drop multiplier by 3 for 30 minutes. For level 60 and above only', price_type = 0, price = 200, hot = 0, items = { {ID = 3097, Qty = 10} }, param1 = 1, param2 = -1 },
+	{ name = 'Heavens Berry x10', desc = 'Grant double experience for 15 mins', price_type = 0, price = 75, hot = 0, items = { {ID = 3844, Qty = 10} }, param1 = 1, param2 = -1 },
+	{ name = 'Amplifier of Strive x10', desc = 'Grant double experience for 30 mins', price_type = 0, price = 125, hot = 0, items = { {ID = 3094, Qty = 10} }, param1 = 1, param2 = -1 },
+	{ name = 'Party EXP fruit x5', desc = 'Use by party leader. Grant party members 1.5 times experience for 15 mins', price_type = 0, price = 75, hot = 0, items = { {ID = 849, Qty = 5} }, param1 = 1, param2 = -1 }
+}
+
+local ED_REP = {
+	{ name = 'Charmed Berry x10', desc = 'Increases the drop multiplier by 2 for 15 minutes.', price_type = 1, price = 4000, hot = 0, items = { {ID = 3845, Qty = 10} }, param1 = 1, param2 = -1 },
+	{ name = 'Amplifier of Luck x10', desc = 'Increases the drop multiplier by 2 for 30 minutes.', price_type = 1, price = 8000, hot = 0, items = { {ID = 3096, Qty = 10} }, param1 = 1, param2 = -1 },
+	{ name = 'Super Lucky Fruit x10', desc = 'Increases the drop multiplier by 3 for 15 minutes. For level 45 and above only', price_type = 1, price = 10000, hot = 0, items = { {ID = 3882, Qty = 10} }, param1 = 1, param2 = -1 },
+	{ name = 'Hi-Amplifier of Luck x10', desc = 'Increases the drop multiplier by 3 for 30 minutes. For level 60 and above only', price_type = 1, price = 20000, hot = 0, items = { {ID = 3097, Qty = 10} }, param1 = 1, param2 = -1 },
+	{ name = 'Heavens Berry x10', desc = 'Grant double experience for 15 mins', price_type = 1, price = 7500, hot = 0, items = { {ID = 3844, Qty = 10} }, param1 = 1, param2 = -1 },
+	{ name = 'Amplifier of Strive x10', desc = 'Grant double experience for 30 mins', price_type = 1, price = 12500, hot = 0, items = { {ID = 3094, Qty = 10} }, param1 = 1, param2 = -1 },
+	{ name = 'Party EXP fruit x5', desc = 'Use by party leader. Grant party members 1.5 times experience for 15 mins', price_type = 1, price = 7500, hot = 0, items = { {ID = 849, Qty = 5} }, param1 = 1, param2 = -1 }
+}
 
 ------
 -- Сборка пакетов
