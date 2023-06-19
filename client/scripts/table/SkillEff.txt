@@ -196,6 +196,7 @@
 204	Lv85 BB Sealing	-1	0	State_BBRING5_Add	State_BBRING5_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	572	1	0	0	0	cos005	0	1566795	
 205	Lv85 BB Holy	-1	0	State_BBRING6_Add	State_BBRING6_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	577	1	0	0	0	cos005	0	1566795	
 207	Christmas luck	-1	0	State_XSMAS01_Add	State_XSMAS01_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	571	1	0	0	0	xmas01	0	1566795	
+208	Premium	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	1566795	
 212	Potion of Life	1	State_Pof_Tran	State_Pof_Add	State_Pof_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	113	-1	0	0	0	t12706n	0	1566795	
 213	Quest - Smuggling	-1	0	State_SnvSmuggling_Add	State_SnvSmuggling_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	1	0	0	0	t0056	0	1566795	
 214	Radiation	1	State_Radiation_Tran	State_Radiation_Add	State_Radiation_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	250	2	0	0	0	n1696	0	1566795	
