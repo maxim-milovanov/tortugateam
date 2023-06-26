@@ -1,6 +1,8 @@
 STONE = {
+	[-1] = {item_id = 885, attr_type = 0, max_lv = 4, gear_point = 0, eff = 0, chance_combine = {1, 1, 1, 0.9, 0, 0, 0, 0, 0}, chance_forge = {0, 0, 0, 0, 0, 0, 0, 0, 1}},
+	
 	-- 
-	[0] = {item_id = 885, attr_type = 0, max_lv = 4, gear_point = 0, eff = 0, chance_combine = {1, 1, 1, 0.9, 0, 0, 0, 0, 0}, chance_forge = {0, 0, 0, 0, 0, 0, 0, 0, 1}},
+	[0] = {item_id = 0, attr_type = 0, max_lv = 0, gear_point = 0, eff = 0, chance_combine = {0, 0, 0, 0, 0, 0, 0, 0, 0}, chance_forge = {0, 0, 0, 0, 0, 0, 0, 0, 0}},
 	
 	-- Fiery Gem 
 	[1] = {item_id = 878, attr_type = ITEMATTR_VAL_MNATK, max_lv = 4, gear_point = 1, eff = 10, chance_combine = {1, 1, 0.8, 0.7, 0, 0, 0, 0, 0}, chance_forge = {1, 1, 0.8, 0.7, 0, 0, 0, 0, 0}},
