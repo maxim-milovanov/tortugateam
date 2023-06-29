@@ -42,8 +42,8 @@ IGS.Category[MainTabName] = IGS.Category[MainTabName] or {
 
 local Oth_IMPs = {
 	{ name = GetItemName(1022), desc = GetItemDescription(1022), price_type = 0, price = 10, hot = 0, items = { {ID = 1022, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = 'Premium Analysis Catalyst x10', desc = '', price_type = 0, price = 45, hot = 0, items = { {ID = 20047, Qty = 10} }, param1 = 1, param2 = -1 },
-	{ name = 'Premium Analysis Catalyst x99', desc = '', price_type = 0, price = 350, hot = 0, items = { {ID = 20047, Qty = 99} }, param1 = 1, param2 = -1 },
+	{ name = 'Premium Analysis Catalyst x10', desc = '', price_type = 0, price = 50, hot = 0, items = { {ID = 20047, Qty = 10} }, param1 = 1, param2 = -1 },
+	{ name = 'Premium Analysis Catalyst x99', desc = '', price_type = 0, price = 450, hot = 0, items = { {ID = 20047, Qty = 99} }, param1 = 1, param2 = -1 },
 	{ name = 'Premium Fish board x10', desc = 'Ingredient for butchering fish', price_type = 0, price = 25, hot = 0, items = { {ID = 20049, Qty = 10} }, param1 = 1, param2 = -1 },
 	{ name = 'Premium Fish board x99', desc = 'Ingredient for butchering fish', price_type = 0, price = 150, hot = 0, items = { {ID = 20049, Qty = 99} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(3142), desc = GetItemDescription(3142), price_type = 0, price = 500, hot = 0, items = { {ID = 3142, Qty = 1} }, param1 = 1, param2 = -1 },
