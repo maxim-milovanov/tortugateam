@@ -34,7 +34,7 @@ local Mounts = {
 	{ name = GetItemName(19517), desc = GetItemDescription(19517), price_type = 0, price = 3000, hot = 0, items = { {ID = 19517, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(19518), desc = GetItemDescription(19518), price_type = 0, price = 3000, hot = 0, items = { {ID = 19518, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(19519), desc = GetItemDescription(19519), price_type = 0, price = 3000, hot = 0, items = { {ID = 19519, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(19519), desc = GetItemDescription(19519), price_type = 0, price = 3000, hot = 0, items = { {ID = 19519, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(19521), desc = GetItemDescription(19521), price_type = 0, price = 3000, hot = 0, items = { {ID = 19521, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(19522), desc = GetItemDescription(19522), price_type = 0, price = 3000, hot = 0, items = { {ID = 19522, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(19523), desc = GetItemDescription(19523), price_type = 0, price = 3000, hot = 0, items = { {ID = 19523, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(19524), desc = GetItemDescription(19524), price_type = 0, price = 3000, hot = 0, items = { {ID = 19524, Qty = 1} }, param1 = 1, param2 = -1 }
