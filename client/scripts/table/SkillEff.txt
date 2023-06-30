@@ -105,7 +105,7 @@
 108	Combine Bonus	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1386	0	1566795	0
 109	Lantern	-1	0	State_DengLong_Add	State_DengLong_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	360	1	0	0	0	n0848	Increases Defense	1566795	2
 110	Rose	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	504	25	0	0	0	n1236	0	1566795	0
-111	Potions to recover HP	3	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	t12706n	0	1566795	1
+111	Potions to recover HP	3	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	t12706n	0	1566795	2
 112	Wine 1	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	0
 113	Wine 2	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	error	0	1566795	0
 114	Corpse Poison	3	0	State_JSDD_Add	State_JSDD_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	250	1	0	0	0	s114ef	0	1566795	3
@@ -197,7 +197,7 @@
 205	Lv85 BB Holy	-1	0	State_BBRING6_Add	State_BBRING6_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	577	1	0	0	0	cos005	0	1566795	0
 207	Christmas luck	-1	0	State_XSMAS01_Add	State_XSMAS01_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	571	1	0	0	0	xmas01	0	1566795	0
 208	Premium	-1	0	0	0	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	1	0	0	0	0	0	1566795	0
-212	Potion of Life	1	State_Pof_Tran	State_Pof_Add	State_Pof_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	113	-1	0	0	0	t12706n	0	1566795	1
+212	Potion of Life	1	State_Pof_Tran	State_Pof_Add	State_Pof_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	113	-1	0	0	0	t12706n	0	1566795	2
 213	Quest - Smuggling	-1	0	State_SnvSmuggling_Add	State_SnvSmuggling_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	1	0	0	0	t0056	0	1566795	2
 214	Radiation	1	State_Radiation_Tran	State_Radiation_Add	State_Radiation_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	250	2	0	0	0	n1696	0	1566795	3
 215	Grinch	-1	0	State_Grinch_Add	State_Grinch_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	802	1	0	0	0	t6558	0	1566795	0
