@@ -75,7 +75,7 @@ local Craft_REP = {
 	{ name = GetItemName(20036), desc = GetItemDescription(20036), price_type = 1, price = 1500, hot = 0, items = { {ID = 20036, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(12510), desc = GetItemDescription(12510), price_type = 1, price = 1500, hot = 0, items = { {ID = 12510, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(20037), desc = GetItemDescription(20037), price_type = 1, price = 1500, hot = 0, items = { {ID = 20037, Qty = 1} }, param1 = 1, param2 = -1 },
-	{ name = GetItemName(20038), desc = GetItemDescription(20038), price_type = 1, price = 1500, hot = 0, items = { {ID = 20038, Qty = 1} }, param1 = 1, param2 = -1 },
+	{ name = GetItemName(20038), desc = GetItemDescription(20038), price_type = 1, price = 300, hot = 0, items = { {ID = 20038, Qty = 1} }, param1 = 1, param2 = -1 },
 	{ name = GetItemName(20100), desc = GetItemDescription(20100), price_type = 1, price = 1000, hot = 0, items = { {ID = 20100, Qty = 1} }, param1 = 1, param2 = -1 }
 }
 
