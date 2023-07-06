@@ -198,3 +198,23 @@ Blueprint[2300] = {
 		{Item = {id = 12709, amount = 20}, Material1 = {id = 12541, amount = {8, 15}}, Material2 = {id = 12547, amount = {8, 15}}, Material3 = {id = 6246, amount = 1}, Coin = 50, exp = 50}
 		
 	}}
+	
+	
+--[[
+for blueprint_id, blueprints in pairs(Blueprint) do
+	local query = "INSERT INTO database_blueprint (recipe_id, level, item_id, material1, material2, material3, coin, exp) VALUES "
+	
+	local _blueprints = {}
+	for level, list in pairs(blueprints) do
+		
+		for pos, _blueprint in pairs(list) do
+			table.insert(_blueprints, "(" .. blueprint_id .. ", " .. level .. ", " .. _blueprint.Item.id .. ", " .. _blueprint.Material1.id .. ", " .. _blueprint.Material2.id .. ", " .. _blueprint.Material3.id .. ", " .. _blueprint.Coin .. ", " .. _blueprint.exp .. ")")
+		end
+		
+	end
+	
+	query = query .. implode(', ', _blueprints) .. ";"
+	print(' ')
+	print(query)
+end
+]]
