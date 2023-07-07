@@ -130,7 +130,7 @@
 133	Super Lollipop	-1	0	State_CJBBT_Add	State_CJBBT_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1475	0	1566795	0
 134	Huge Chocolate	-1	0	State_JRQKL_Add	State_JRQKL_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	n1476	0	1566795	0
 135	Deathsoul Magma Bullet	1	0	State_wlrsd_Add	State_wlrsd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	0	-1	0	0	0	s286sk	0	1566795	3
-136	Deathsoul Acceleration	-1	0	State_wljs_Add	State_wljs_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	922	-1	0	0	0	s287sk	0	1566795	1
+136	Deathsoul Acceleration	-1	0	State_wljs_Add	State_wljs_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	922	-1	0	0	0	s287sk	0	1566795	2
 137	Deathsoul Whirlpool	-1	State_wlxw_Tran	State_wlxw_Add	State_wlxw_Rem	1	0	1	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	280	1	0	0	0	0	0	0	s137ef	0	1566795	3
 138	Encumbered Skeleton	3	0	State_klcs_Add	State_klcs_Rem	1	0	0	1	1	0	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	921	-1	0	0	0	error	0	1566795	3
 139	Skeletar Shielding	-1	0	State_klhd_Add	State_klhd_Rem	1	0	1	1	1	1	1	1	1	1	1	1	1	1	0	0	0	-1	0	0	0	912	-1	0	0	0	error	0	1566795	0
