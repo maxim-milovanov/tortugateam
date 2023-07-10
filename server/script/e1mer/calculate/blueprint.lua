@@ -137,24 +137,24 @@ Blueprint[2300] = {
 		{Item = {id = 3662, amount = 1}, Material1 = {id = 4002, amount = {20, 40}}, Material2 = {id = 4042, amount = {5, 9}}, Material3 = {id = 20100, amount = {20, 30}}, Coin = 70, exp = 175},
 		{Item = {id = 3663, amount = 1}, Material1 = {id = 4002, amount = {20, 40}}, Material2 = {id = 4042, amount = {5, 9}}, Material3 = {id = 20100, amount = {20, 30}}, Coin = 70, exp = 175}
 		
-	}	
+	}
 } Blueprint[2302] = {		
 	[1] = {	{Item = {id = 4019, amount = 5}, Material1 = {id = 4421, amount = {10, 15}}, Material2 = {id = 4009, amount = {5, 10}}, Material3 = {id = 2588, amount = {1, 5}}, Coin = 15, exp = 15},
 		{Item = {id = 1078, amount = 5}, Material1 = {id = 4915, amount = {10, 15}}, Material2 = {id = 4809, amount = {8, 12}}, Material3 = {id = 2588, amount = {1, 4}}, Coin = 15, exp = 15},
 		{Item = {id = 1084, amount = 5}, Material1 = {id = 3116, amount = {10, 15}}, Material2 = {id = 4804, amount = {8, 12}}, Material3 = {id = 2588, amount = {2, 5}}, Coin = 15, exp = 15},
-		{Item = {id = 3122, amount = 25}, Material1 = {id = 4049, amount = {4, 10}}, Material2 = {id = 3116, amount = {5, 15}}, Material3 = {id = 2588, amount = {1, 2}}, Coin = 15, exp = 15},
-		{Item = {id = 6204, amount = 99}, Material1 = {id = 4049, amount = {4, 10}}, Material2 = {id = 3116, amount = {3, 6}}, Material3 = {id = 2588, amount = {1, 1}}, Coin = 15, exp = 15}
+		{Item = {id = 20052, amount = 1}, Material1 = {id = 4049, amount = {4, 10}}, Material2 = {id = 3116, amount = {5, 15}}, Material3 = {id = 2588, amount = {1, 2}}, Coin = 15, exp = 15},
+		{Item = {id = 20051, amount = 1}, Material1 = {id = 4049, amount = {4, 10}}, Material2 = {id = 3116, amount = {3, 6}}, Material3 = {id = 2588, amount = {1, 1}}, Coin = 15, exp = 15}
 	}, [2] = {	{Item = {id = 4020, amount = 5}, Material1 = {id = 4466, amount = {10, 15}}, Material2 = {id = 4010, amount = {4, 8}}, Material3 = {id = 2588, amount = {2, 6}}, Coin = 35, exp = 20},
 		{Item = {id = 1079, amount = 5}, Material1 = {id = 4060, amount = {5, 7}}, Material2 = {id = 4540, amount = {4, 8}}, Material3 = {id = 2588, amount = {2, 4}}, Coin = 35, exp = 20},
 		{Item = {id = 1085, amount = 5}, Material1 = {id = 4915, amount = {10, 15}}, Material2 = {id = 4809, amount = {8, 12}}, Material3 = {id = 2588, amount = {3, 6}}, Coin = 35, exp = 20},
-		{Item = {id = 3125, amount = 70}, Material1 = {id = 4352, amount = {10, 15}}, Material2 = {id = 3116, amount = {8, 12}}, Material3 = {id = 2588, amount = {1, 1}}, Coin = 35, exp = 20},
+		{Item = {id = 20053, amount = 1}, Material1 = {id = 4352, amount = {10, 15}}, Material2 = {id = 3116, amount = {8, 12}}, Material3 = {id = 2588, amount = {1, 1}}, Coin = 35, exp = 20},
 		{Item = {id = 3127, amount = 35}, Material1 = {id = 4060, amount = {5, 10}}, Material2 = {id = 4809, amount = {8, 12}}, Material3 = {id = 2588, amount = {1, 2}}, Coin = 35, exp = 20}
 	}, [3] = {	{Item = {id = 4021, amount = 5}, Material1 = {id = 1578, amount = {5, 10}}, Material2 = {id = 4011, amount = {4, 8}}, Material3 = {id = 2588, amount = {3, 7}}, Coin = 50, exp = 25},
 		{Item = {id = 1080, amount = 5}, Material1 = {id = 4730, amount = {10, 15}}, Material2 = {id = 4011, amount = {4, 8}}, Material3 = {id = 2588, amount = {3, 4}}, Coin = 50, exp = 25},
-		{Item = {id = 3126, amount = 99}, Material1 = {id = 1578, amount = {2, 4}}, Material2 = {id = 4452, amount = {8, 12}}, Material3 = {id = 2588, amount = 2}, Coin = 50, exp = 25},
-		{Item = {id = 3128, amount = 60}, Material1 = {id = 4730, amount = {10, 15}}, Material2 = {id = 4720, amount = {10, 15}}, Material3 = {id = 2588, amount = {1, 2}}, Coin = 50, exp = 30},
+		{Item = {id = 20054, amount = 1}, Material1 = {id = 1578, amount = {2, 4}}, Material2 = {id = 4452, amount = {8, 12}}, Material3 = {id = 2588, amount = 2}, Coin = 50, exp = 25},
+		{Item = {id = 20055, amount = 1}, Material1 = {id = 4730, amount = {10, 15}}, Material2 = {id = 4720, amount = {10, 15}}, Material3 = {id = 2588, amount = {1, 2}}, Coin = 50, exp = 30},
 		{Item = {id = 1088, amount = 5}, Material1 = {id = 4730, amount = {10, 15}}, Material2 = {id = 4452, amount = {8, 12}}, Material3 = {id = 2588, amount = {3, 7}}, Coin = 50, exp = 25},
-		{Item = {id = 3140, amount = 75}, Material1 = {id = 4730, amount = {7, 14}}, Material2 = {id = 4720, amount = {10, 15}}, Material3 = {id = 2588, amount = {1, 2}}, Coin = 50, exp = 30},
+		{Item = {id = 20056, amount = 1}, Material1 = {id = 4730, amount = {7, 14}}, Material2 = {id = 4720, amount = {10, 15}}, Material3 = {id = 2588, amount = {1, 2}}, Coin = 50, exp = 30},
 		{Item = {id = 3909, amount = 7}, Material1 = {id = 3929, amount = {15, 25}}, Material2 = {id = 6246, amount = {2, 4}}, Material3 = {id = 2588, amount = {8, 12}}, Coin = 50, exp = 25},
 		{Item = {id = 19957, amount = 7}, Material1 = {id = 3929, amount = {15, 25}}, Material2 = {id = 6246, amount = {2, 4}}, Material3 = {id = 2588, amount = {8, 12}}, Coin = 50, exp = 25}
 	}, [4] = {	{Item = {id = 3909, amount = 14}, Material1 = {id = 3929, amount = {30, 35}}, Material2 = {id = 6246, amount = {4, 5}}, Material3 = {id = 2588, amount = {10, 12}}, Coin = 70, exp = 25},
@@ -198,23 +198,3 @@ Blueprint[2300] = {
 		{Item = {id = 12709, amount = 20}, Material1 = {id = 12541, amount = {8, 15}}, Material2 = {id = 12547, amount = {8, 15}}, Material3 = {id = 6246, amount = 1}, Coin = 50, exp = 50}
 		
 	}}
-	
-	
---[[
-for blueprint_id, blueprints in pairs(Blueprint) do
-	local query = "INSERT INTO database_blueprint (recipe_id, level, item_id, material1, material2, material3, coin, exp) VALUES "
-	
-	local _blueprints = {}
-	for level, list in pairs(blueprints) do
-		
-		for pos, _blueprint in pairs(list) do
-			table.insert(_blueprints, "(" .. blueprint_id .. ", " .. level .. ", " .. _blueprint.Item.id .. ", " .. _blueprint.Material1.id .. ", " .. _blueprint.Material2.id .. ", " .. _blueprint.Material3.id .. ", " .. _blueprint.Coin .. ", " .. _blueprint.exp .. ")")
-		end
-		
-	end
-	
-	query = query .. implode(', ', _blueprints) .. ";"
-	print(' ')
-	print(query)
-end
-]]
