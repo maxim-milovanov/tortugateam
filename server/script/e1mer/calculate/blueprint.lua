@@ -79,26 +79,26 @@ Blueprint[2300] = {
 		{Item = {id = 3457, amount = 1}, Material1 = {id = 2656, amount = {7, 10}}, Material2 = {id = 2658, amount = {7, 10}}, Material3 = {id = 2657, amount = {7, 10}}, Coin = 35, exp = 125},
 		{Item = {id = 3457, amount = 1}, Material1 = {id = 4003, amount = {5, 7}}, Material2 = {id = 4002, amount = {7, 13}}, Material3 = {id = 4001, amount = {10, 12}}, Coin = 35, exp = 125},
 		{Item = {id = 3457, amount = 1}, Material1 = {id = 3431, amount = {25, 35}}, Material2 = {id = 3433, amount = {5, 12}}, Material3 = {id = 4042, amount = {5, 10}}, Coin = 35, exp = 125},
-		{Item = {id = 879, amount = 1}, Material1 = {id = 2602, amount = {1, 5}}, Material2 = {id = 3431, amount = {11, 50}}, Material3 = {id = 4041, amount = {9, 12}}, Coin = 35, exp = 125},
-		{Item = {id = 880, amount = 1}, Material1 = {id = 2602, amount = {1, 5}}, Material2 = {id = 3431, amount = {13, 50}}, Material3 = {id = 4041, amount = {9, 12}}, Coin = 35, exp = 125},
-		{Item = {id = 881, amount = 1}, Material1 = {id = 2602, amount = {2, 5}}, Material2 = {id = 3431, amount = {20, 50}}, Material3 = {id = 4041, amount = {9, 12}}, Coin = 35, exp = 125},
-		{Item = {id = 883, amount = 1}, Material1 = {id = 2602, amount = {2, 5}}, Material2 = {id = 3431, amount = {25, 50}}, Material3 = {id = 4041, amount = {9, 12}}, Coin = 35, exp = 125},
-		{Item = {id = 887, amount = 1}, Material1 = {id = 2602, amount = {2, 5}}, Material2 = {id = 3431, amount = {17, 50}}, Material3 = {id = 4041, amount = {9, 12}}, Coin = 35, exp = 125},
-		{Item = {id = 19942, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3433, amount = {5, 8}}, Material3 = {id = 4041, amount = {12, 19}}, Coin = 35, exp = 125},
-		{Item = {id = 19945, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3433, amount = {5, 8}}, Material3 = {id = 4041, amount = {12, 19}}, Coin = 35, exp = 125},
-		{Item = {id = 19948, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3433, amount = {5, 8}}, Material3 = {id = 4041, amount = {12, 19}}, Coin = 35, exp = 125},
-		{Item = {id = 19951, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3433, amount = {5, 8}}, Material3 = {id = 4041, amount = {12, 19}}, Coin = 35, exp = 125},
-		{Item = {id = 19954, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3433, amount = {5, 8}}, Material3 = {id = 4041, amount = {12, 19}}, Coin = 35, exp = 125},
-		{Item = {id = 19943, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3457, amount = {1, 2}}, Material3 = {id = 4041, amount = {15, 26}}, Coin = 35, exp = 125},
-		{Item = {id = 19946, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3457, amount = {1, 2}}, Material3 = {id = 4041, amount = {15, 26}}, Coin = 35, exp = 125},
-		{Item = {id = 19949, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3457, amount = {1, 2}}, Material3 = {id = 4041, amount = {15, 26}}, Coin = 35, exp = 125},
-		{Item = {id = 19952, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3457, amount = {1, 2}}, Material3 = {id = 4041, amount = {15, 26}}, Coin = 35, exp = 125},
-		{Item = {id = 19955, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3457, amount = {1, 2}}, Material3 = {id = 4041, amount = {15, 26}}, Coin = 35, exp = 125},
-		{Item = {id = 19943, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3433, amount = {9, 13}}, Material3 = {id = 4041, amount = {17, 21}}, Coin = 35, exp = 125},
-		{Item = {id = 19946, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3433, amount = {9, 13}}, Material3 = {id = 4041, amount = {17, 21}}, Coin = 35, exp = 125},
-		{Item = {id = 19949, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3433, amount = {9, 13}}, Material3 = {id = 4041, amount = {17, 21}}, Coin = 35, exp = 125},
-		{Item = {id = 19952, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3433, amount = {9, 13}}, Material3 = {id = 4041, amount = {17, 21}}, Coin = 35, exp = 125},
-		{Item = {id = 19955, amount = 1}, Material1 = {id = 2603, amount = {2, 4}}, Material2 = {id = 3433, amount = {9, 13}}, Material3 = {id = 4041, amount = {17, 21}}, Coin = 35, exp = 125}
+		{Item = {id = 879, amount = 1}, Material1 = {id = 2602, amount = 1}, Material2 = {id = 3431, amount = {11, 50}}, Material3 = {id = 4041, amount = {9, 12}}, Coin = 35, exp = 125},
+		{Item = {id = 880, amount = 1}, Material1 = {id = 2602, amount = 1}, Material2 = {id = 3431, amount = {13, 50}}, Material3 = {id = 4041, amount = {9, 12}}, Coin = 35, exp = 125},
+		{Item = {id = 881, amount = 1}, Material1 = {id = 2602, amount = 1}, Material2 = {id = 3431, amount = {20, 50}}, Material3 = {id = 4041, amount = {9, 12}}, Coin = 35, exp = 125},
+		{Item = {id = 883, amount = 1}, Material1 = {id = 2602, amount = 1}, Material2 = {id = 3431, amount = {25, 50}}, Material3 = {id = 4041, amount = {9, 12}}, Coin = 35, exp = 125},
+		{Item = {id = 887, amount = 1}, Material1 = {id = 2602, amount = 1}, Material2 = {id = 3431, amount = {17, 50}}, Material3 = {id = 4041, amount = {9, 12}}, Coin = 35, exp = 125},
+		{Item = {id = 19942, amount = 1}, Material1 = {id = 2602, amount = {2, 3}}, Material2 = {id = 3433, amount = {5, 8}}, Material3 = {id = 4041, amount = {12, 19}}, Coin = 35, exp = 125},
+		{Item = {id = 19945, amount = 1}, Material1 = {id = 2602, amount = {2, 3}}, Material2 = {id = 3433, amount = {5, 8}}, Material3 = {id = 4041, amount = {12, 19}}, Coin = 35, exp = 125},
+		{Item = {id = 19948, amount = 1}, Material1 = {id = 2602, amount = {2, 3}}, Material2 = {id = 3433, amount = {5, 8}}, Material3 = {id = 4041, amount = {12, 19}}, Coin = 35, exp = 125},
+		{Item = {id = 19951, amount = 1}, Material1 = {id = 2602, amount = {2, 3}}, Material2 = {id = 3433, amount = {5, 8}}, Material3 = {id = 4041, amount = {12, 19}}, Coin = 35, exp = 125},
+		{Item = {id = 19954, amount = 1}, Material1 = {id = 2602, amount = {2, 3}}, Material2 = {id = 3433, amount = {5, 8}}, Material3 = {id = 4041, amount = {12, 19}}, Coin = 35, exp = 125},
+		{Item = {id = 19943, amount = 1}, Material1 = {id = 2603, amount = 1}, Material2 = {id = 3457, amount = {1, 2}}, Material3 = {id = 4041, amount = {15, 26}}, Coin = 35, exp = 125},
+		{Item = {id = 19946, amount = 1}, Material1 = {id = 2603, amount = 1}, Material2 = {id = 3457, amount = {1, 2}}, Material3 = {id = 4041, amount = {15, 26}}, Coin = 35, exp = 125},
+		{Item = {id = 19949, amount = 1}, Material1 = {id = 2603, amount = 1}, Material2 = {id = 3457, amount = {1, 2}}, Material3 = {id = 4041, amount = {15, 26}}, Coin = 35, exp = 125},
+		{Item = {id = 19952, amount = 1}, Material1 = {id = 2603, amount = 1}, Material2 = {id = 3457, amount = {1, 2}}, Material3 = {id = 4041, amount = {15, 26}}, Coin = 35, exp = 125},
+		{Item = {id = 19955, amount = 1}, Material1 = {id = 2603, amount = 1}, Material2 = {id = 3457, amount = {1, 2}}, Material3 = {id = 4041, amount = {15, 26}}, Coin = 35, exp = 125},
+		{Item = {id = 19943, amount = 1}, Material1 = {id = 2603, amount = 1}, Material2 = {id = 3433, amount = {9, 13}}, Material3 = {id = 4041, amount = {17, 21}}, Coin = 35, exp = 125},
+		{Item = {id = 19946, amount = 1}, Material1 = {id = 2603, amount = 1}, Material2 = {id = 3433, amount = {9, 13}}, Material3 = {id = 4041, amount = {17, 21}}, Coin = 35, exp = 125},
+		{Item = {id = 19949, amount = 1}, Material1 = {id = 2603, amount = 1}, Material2 = {id = 3433, amount = {9, 13}}, Material3 = {id = 4041, amount = {17, 21}}, Coin = 35, exp = 125},
+		{Item = {id = 19952, amount = 1}, Material1 = {id = 2603, amount = 1}, Material2 = {id = 3433, amount = {9, 13}}, Material3 = {id = 4041, amount = {17, 21}}, Coin = 35, exp = 125},
+		{Item = {id = 19955, amount = 1}, Material1 = {id = 2603, amount = 1}, Material2 = {id = 3433, amount = {9, 13}}, Material3 = {id = 4041, amount = {17, 21}}, Coin = 35, exp = 125}
 	}, [3] = {	{Item = {id = 12733, amount = 1}, Material1 = {id = 20100, amount = {9, 15}}, Material2 = {id = 20045, amount = {5, 10}}, Material3 = {id = 4040, amount = {10, 20}}, Coin = 50, exp = 150},
 		{Item = {id = 1988, amount = 1}, Material1 = {id = 2604, amount = {1, 2}}, Material2 = {id = 4041, amount = {7, 12}}, Material3 = {id = 4040, amount = {10, 20}}, Coin = 50, exp = 150},
 		{Item = {id = 1989, amount = 1}, Material1 = {id = 2604, amount = {1, 2}}, Material2 = {id = 4041, amount = {7, 12}}, Material3 = {id = 4040, amount = {10, 20}}, Coin = 50, exp = 150},
@@ -125,19 +125,18 @@ Blueprint[2300] = {
 		{Item = {id = 1922, amount = 1}, Material1 = {id = 2604, amount = {1, 2}}, Material2 = {id = 4041, amount = {12, 22}}, Material3 = {id = 4041, amount = {17, 36}}, Coin = 50, exp = 175},
 		{Item = {id = 1926, amount = 1}, Material1 = {id = 2604, amount = {1, 2}}, Material2 = {id = 4041, amount = {12, 22}}, Material3 = {id = 4041, amount = {17, 36}}, Coin = 50, exp = 175},
 		{Item = {id = 1099, amount = 1}, Material1 = {id = 2604, amount = {1, 2}}, Material2 = {id = 4041, amount = {12, 22}}, Material3 = {id = 4041, amount = {17, 36}}, Coin = 50, exp = 175}
-	}, [4] = {	{Item = {id = 19944, amount = 1}, Material1 = {id = 2604, amount = {5, 8}}, Material2 = {id = 3457, amount = {2, 5}}, Material3 = {id = 4041, amount = {18, 22}}, Coin = 70, exp = 175},
-		{Item = {id = 19947, amount = 1}, Material1 = {id = 2604, amount = {5, 8}}, Material2 = {id = 3457, amount = {2, 5}}, Material3 = {id = 4041, amount = {18, 22}}, Coin = 70, exp = 175},
-		{Item = {id = 19950, amount = 1}, Material1 = {id = 2604, amount = {5, 8}}, Material2 = {id = 3457, amount = {2, 5}}, Material3 = {id = 4041, amount = {18, 22}}, Coin = 70, exp = 175},
-		{Item = {id = 19953, amount = 1}, Material1 = {id = 2604, amount = {5, 8}}, Material2 = {id = 3457, amount = {2, 5}}, Material3 = {id = 4041, amount = {18, 22}}, Coin = 70, exp = 175},
-		{Item = {id = 19956, amount = 1}, Material1 = {id = 2604, amount = {5, 8}}, Material2 = {id = 3457, amount = {2, 5}}, Material3 = {id = 4041, amount = {18, 22}}, Coin = 70, exp = 175},
+	}, [4] = {	{Item = {id = 19944, amount = 1}, Material1 = {id = 2604, amount = {1, 3}}, Material2 = {id = 3457, amount = {2, 5}}, Material3 = {id = 4041, amount = {18, 22}}, Coin = 70, exp = 175},
+		{Item = {id = 19947, amount = 1}, Material1 = {id = 2604, amount = {1, 3}}, Material2 = {id = 3457, amount = {2, 5}}, Material3 = {id = 4041, amount = {18, 22}}, Coin = 70, exp = 175},
+		{Item = {id = 19950, amount = 1}, Material1 = {id = 2604, amount = {1, 3}}, Material2 = {id = 3457, amount = {2, 5}}, Material3 = {id = 4041, amount = {18, 22}}, Coin = 70, exp = 175},
+		{Item = {id = 19953, amount = 1}, Material1 = {id = 2604, amount = {1, 3}}, Material2 = {id = 3457, amount = {2, 5}}, Material3 = {id = 4041, amount = {18, 22}}, Coin = 70, exp = 175},
+		{Item = {id = 19956, amount = 1}, Material1 = {id = 2604, amount = {1, 3}}, Material2 = {id = 3457, amount = {2, 5}}, Material3 = {id = 4041, amount = {18, 22}}, Coin = 70, exp = 175},
 		{Item = {id = 12734, amount = 1}, Material1 = {id = 20100, amount = {16, 24}}, Material2 = {id = 20045, amount = {15, 20}}, Material3 = {id = 4041, amount = {16, 24}}, Coin = 70, exp = 175},
 		{Item = {id = 127, amount = 1}, Material1 = {id = 3827, amount = 1}, Material2 = {id = 4042, amount = {2, 8}}, Material3 = {id = 4040, amount = {10, 20}}, Coin = 70, exp = 175},
 		{Item = {id = 3660, amount = 1}, Material1 = {id = 4002, amount = {20, 40}}, Material2 = {id = 4042, amount = {5, 9}}, Material3 = {id = 20100, amount = {20, 30}}, Coin = 70, exp = 175},
 		{Item = {id = 3661, amount = 1}, Material1 = {id = 4002, amount = {20, 40}}, Material2 = {id = 4042, amount = {5, 9}}, Material3 = {id = 20100, amount = {20, 30}}, Coin = 70, exp = 175},
 		{Item = {id = 3662, amount = 1}, Material1 = {id = 4002, amount = {20, 40}}, Material2 = {id = 4042, amount = {5, 9}}, Material3 = {id = 20100, amount = {20, 30}}, Coin = 70, exp = 175},
 		{Item = {id = 3663, amount = 1}, Material1 = {id = 4002, amount = {20, 40}}, Material2 = {id = 4042, amount = {5, 9}}, Material3 = {id = 20100, amount = {20, 30}}, Coin = 70, exp = 175}
-		
-	}
+	}	
 } Blueprint[2302] = {		
 	[1] = {	{Item = {id = 4019, amount = 5}, Material1 = {id = 4421, amount = {10, 15}}, Material2 = {id = 4009, amount = {5, 10}}, Material3 = {id = 2588, amount = {1, 5}}, Coin = 15, exp = 15},
 		{Item = {id = 1078, amount = 5}, Material1 = {id = 4915, amount = {10, 15}}, Material2 = {id = 4809, amount = {8, 12}}, Material3 = {id = 2588, amount = {1, 4}}, Coin = 15, exp = 15},
@@ -196,8 +195,8 @@ Blueprint[2300] = {
 } Blueprint[20040] = {		
 	[1] = {	{Item = {id = 1856, amount = 15}, Material1 = {id = 12538, amount = {8, 15}}, Material2 = {id = 12535, amount = {8, 15}}, Material3 = {id = 6246, amount = 1}, Coin = 50, exp = 50},
 		{Item = {id = 12709, amount = 20}, Material1 = {id = 12541, amount = {8, 15}}, Material2 = {id = 12547, amount = {8, 15}}, Material3 = {id = 6246, amount = 1}, Coin = 50, exp = 50}
-	}
-}
+		
+	}}
 
 --[[
 for blueprint_id, blueprints in pairs(Blueprint) do
